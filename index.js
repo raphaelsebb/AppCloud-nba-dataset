@@ -12,6 +12,7 @@ app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
 app.use(express.static('views'));
 
+// Get teams
 app.get('/', function (req, res, next) {
   var resultArray = [];
   mongo.connect(url, function(err, db) {
@@ -30,6 +31,7 @@ app.get('/', function (req, res, next) {
   });
 });
 
+// Get team's membres (using team'id)
 app.get('/team:id', function (req, res) {
   var id = parseInt(req.params.id);
   mongo.connect(url, function(err, db) {
@@ -84,6 +86,8 @@ app.get('/team:id', function (req, res) {
   });
 });
 
+
+// Start server
 var server = app.listen(3000, function () {
    var host = server.address().address;
    var port = server.address().port;
