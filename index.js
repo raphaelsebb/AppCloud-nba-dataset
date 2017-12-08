@@ -50,15 +50,6 @@ app.get('/team:id', function (req, res) {
       {
         $unwind: "$playerInfo"
       },
-      // {$lookup: {
-      //     from: "Game",
-      //     localField: "GameId",
-      //     foreignField: "GameId",
-      //     as: "gameInfo"
-      // }},
-      // {
-      //   $unwind: "$gameInfo"
-      // },
       {$lookup: {
           from: "Team",
           localField: "TeamId",
@@ -80,7 +71,30 @@ app.get('/team:id', function (req, res) {
       if (err) throw err;
       res.setHeader('Content-Type', 'application/json');
       console.log(result);
-      res.send({'result': result});
+      res.send({'team': result});
+      db.close();
+    });
+  });
+});
+
+// Get team's scores (using team'id)
+app.get('/score:id', function (req, res) {
+  var id = parseInt(req.params.id);
+  mongo.connect(url, function(err, db) {
+    db.collection("Game").aggregate([
+      {
+        $match:{
+          $or: [
+            { "Team1Id": id },
+            { "Team2Id": id }
+          ]
+        }
+      }
+    ]).toArray(function(err, result) {
+      if (err) throw err;
+      res.setHeader('Content-Type', 'application/json');
+      console.log(result);
+      res.send({'score': result});
       db.close();
     });
   });

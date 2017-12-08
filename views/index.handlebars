@@ -89,28 +89,25 @@
 						<!-- Second Section -->
 							<section id="matchs" class="main special">
 								<header class="major">
-									<h2>Ipsum consequat</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<h2>Sports results</h2>
 								</header>
 								<ul class="statistics">
 									<li class="style1">
 										<span class="icon fa-thumbs-o-up"></span>
-										<strong>5,120</strong> Win
+										<strong id="win">0</strong> Win
 									</li>
 									<li class="style2">
 										<span class="icon fa-minus-square-o"></span>
-										<strong>2,048</strong> Draw
+										<strong id="draw">0</strong> Draw
 									</li>
 									<li class="style3">
 										<span class="icon fa-thumbs-o-down"></span>
-										<strong>8,192</strong> Lose
+										<strong id="lose">0</strong> Lose
 									</li>
 								</ul>
-								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
 								<footer class="major">
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn More</a></li>
+										<li><a href="generic.html" class="button">Voir tous les matchs</a></li>
 									</ul>
 								</footer>
 							</section>
@@ -137,24 +134,53 @@
 				$("#matchs").hide();
 
 				function selectTeam() {
-					var team = $("#teamList").val();
-					if (team != "") {
-						var json_url = '/team'+team;
-						$.getJSON(json_url, function(data) {
+					var teamId = $("#teamList").val();
+					if (teamId != "") {
+						var json_url_team = '/team'+teamId;
+						$.getJSON(json_url_team, function(data) {
 							//console.log(data);
 							$("#teamMembers tbody").empty();
 							var count = 0;
-							$.each(data.result, function(index, value) {
+							$.each(data.team, function(index, value) {
 								count ++;
-							   console.log(value.playerInfo.PlayerName);
-								 $("#teamMembers").show();
-								 $("#teamMembers h2").text(value.teamInfo.TeamName);
-								 $("#teamMembers tbody").append( "<tr><td>"+value.playerInfo.PlayerId+"</td><td><a href='/player"+value.playerInfo.PlayerId+"'>"+value.playerInfo.PlayerName+"</a></td><td>"+value.teamInfo.TeamName+"</td></tr>" );
+						  	console.log(value.playerInfo.PlayerName);
+								$("#teamMembers").show();
+								$("#teamMembers h2").text(value.teamInfo.TeamName);
+								$("#teamMembers tbody").append( "<tr><td>"+value.playerInfo.PlayerId+"</td><td><a href='/player"+value.playerInfo.PlayerId+"'>"+value.playerInfo.PlayerName+"</a></td><td>"+value.teamInfo.TeamName+"</td></tr>" );
 							});
 							$("a[href=#teamMembers]").click();
 							$("#teamMembers h2").append("<span class='count'>("+count+" membres)</span>")
 							console.log(count);
 						});
+
+						var json_url_score = '/score'+teamId;
+						$.getJSON(json_url_score, function(data) {
+							//console.log(data);
+							var count = 0;
+							var win = 0;
+							var lose = 0;
+							var draw = 0;
+
+							$.each(data.score, function(index, value) {
+								count ++;
+								if ((teamId == value.Team1Id && value.ResultOfTeam1 > 0) || (teamId != value.Team1Id && value.ResultOfTeam1 < 0)) {
+									win ++;
+								}
+								else if ((teamId == value.Team1Id && value.ResultOfTeam1 < 0) || (teamId != value.Team1Id && value.ResultOfTeam1 > 0)) {
+									lose++;
+								}
+								else if (value.ResultOfTeam1 == 0) {
+									draw ++;
+								}
+						  	console.log(value);
+							});
+							$("#matchs").show();
+							$("#win").text(win);
+							$("#lose").text(lose);
+							$("#draw").text(draw);
+							console.log(count);
+						});
+
 					}
 					else {
 						$("#teamMembers").hide();
