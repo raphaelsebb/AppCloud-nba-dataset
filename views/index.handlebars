@@ -136,49 +136,35 @@
 				function selectTeam() {
 					var teamId = $("#teamList").val();
 					if (teamId != "") {
-						var json_url_team = '/team'+teamId;
-						$.getJSON(json_url_team, function(data) {
-							//console.log(data);
-							$("#teamMembers tbody").empty();
-							var count = 0;
-							$.each(data.team, function(index, value) {
-								count ++;
-						  	console.log(value.playerInfo.PlayerName);
-								$("#teamMembers").show();
-								$("#teamMembers h2").text(value.teamInfo.TeamName);
-								$("#teamMembers tbody").append( "<tr><td>"+value.playerInfo.PlayerId+"</td><td><a href='/player"+value.playerInfo.PlayerId+"'>"+value.playerInfo.PlayerName+"</a></td><td>"+value.teamInfo.TeamName+"</td></tr>" );
-							});
-							$("a[href=#teamMembers]").click();
-							$("#teamMembers h2").append("<span class='count'>("+count+" membres)</span>")
-							console.log(count);
-						});
+						// var json_url_team = '/team'+teamId;
+						// $.getJSON(json_url_team, function(data) {
+						// 	//console.log(data);
+						// 	$("#teamMembers tbody").empty();
+						// 	var count = 0;
+						// 	$.each(data.team, function(index, value) {
+						// 		count ++;
+						//   	console.log(value.Player.PlayerName);
+						// 		$("#teamMembers").show();
+						// 		$("#teamMembers h2").text(value.TeamInfo.TeamName);
+						// 		$("#teamMembers tbody").append( "<tr><td>"+value.Player.PlayerId+"</td><td><a href='/player"+value.Player.PlayerId+"'>"+value.Player.PlayerName+"</a></td><td>"+value.TeamInfo.TeamName+"</td></tr>" );
+						// 	});
+						// 	$("a[href=#teamMembers]").click();
+						// 	$("#teamMembers h2").append("<span class='count'>("+count+" membres)</span>")
+						// 	console.log(count);
+						// });
 
-						var json_url_score = '/score'+teamId;
+						var json_url_score = '/team'+teamId;
 						$.getJSON(json_url_score, function(data) {
-							//console.log(data);
-							var count = 0;
-							var win = 0;
-							var lose = 0;
-							var draw = 0;
-
-							$.each(data.score, function(index, value) {
-								count ++;
-								if ((teamId == value.Team1Id && value.ResultOfTeam1 > 0) || (teamId != value.Team1Id && value.ResultOfTeam1 < 0)) {
-									win ++;
-								}
-								else if ((teamId == value.Team1Id && value.ResultOfTeam1 < 0) || (teamId != value.Team1Id && value.ResultOfTeam1 > 0)) {
-									lose++;
-								}
-								else if (value.ResultOfTeam1 == 0) {
-									draw ++;
-								}
-						  	console.log(value);
+							$("#teamMembers tbody").empty();
+							console.log(data);
+							$.each(data.game, function(index, value) {
+								console.log(value.Team1.TeamName+" VS "+value.Team2.TeamName);
+								$("#teamMembers").show();
+								$("#teamMembers tbody").append( "<tr><td>"+value.Team1.TeamName+"</td><td>"+value.Team2.TeamName+"</td><td><a class='button'>Détail du match</a></td></tr>" );
+								$("table tbody tr").click(function() {
+									window.location.href += 'game'+value.GameId;
+								});
 							});
-							$("#matchs").show();
-							$("#win").text(win);
-							$("#lose").text(lose);
-							$("#draw").text(draw);
-							console.log(count);
 						});
 
 					}

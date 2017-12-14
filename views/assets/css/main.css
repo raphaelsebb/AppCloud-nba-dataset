@@ -2742,6 +2742,10 @@
 
 /* Table */
 
+	table tbody tr:hover {
+		cursor: pointer;;
+	}
+
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
