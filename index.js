@@ -12,7 +12,7 @@ app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
 app.use(express.static('views'));
 
-// Get teams
+// Get all teams
 app.get('/', function (req, res, next) {
   var resultArray = [];
   mongo.connect(url, function(err, db) {
@@ -68,7 +68,7 @@ app.get('/', function (req, res, next) {
 //   });
 // });
 
-// Get team's scores (using team'id)
+// Get team's played games (using team's id)
 app.get('/team:id', function (req, res) {
   var id = parseInt(req.params.id);
   mongo.connect(url, function(err, db) {
@@ -91,6 +91,28 @@ app.get('/team:id', function (req, res) {
   });
 });
 
+
+// Get games (using game's id)
+app.get('/game:id', function (req, res) {
+  var id = parseInt(req.params.id);
+  mongo.connect(url, function(err, db) {
+    db.collection("Actions").aggregate([
+      {
+        $match:{
+          $or: [
+            { "GameId": id }
+          ]
+        }
+      }
+    ]).toArray(function(err, result) {
+      if (err) throw err;
+      res.setHeader('Content-Type', 'application/json');
+      console.log(result);
+      res.send({'game': result});
+      db.close();
+    });
+  });
+});
 
 // Start server
 var server = app.listen(3000, function () {
