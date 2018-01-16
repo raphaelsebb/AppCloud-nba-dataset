@@ -18,3 +18,8 @@ sudo mongod
 ```
 
 Rendez-vous sur http://localhost:3000/
+
+## Fonctionnalités
+
+Sur la page index vous pouvez séléctionner l'équipe de votre choix.
+Une fois séléctionnée, un tableux contenant l'ensembles des matches disputés apparait.
