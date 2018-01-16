@@ -6,7 +6,9 @@ Le but de cet exercice est de développer une application avec des données re
 
 https://relational.fit.cvut.cz/dataset/NBA
 
-## Installation 
+## Installation
+
+Télécharger le dossier `bdd` et ajoutez les JSON à votre base de données mongodb.
 
 ```
 npm install -all
@@ -14,3 +16,5 @@ npm install -all
 ```
 sudo mongod
 ```
+
+Rendez-vous sur http://localhost:3000/

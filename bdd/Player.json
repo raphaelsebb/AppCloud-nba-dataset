@@ -1,0 +1,1960 @@
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76deb99"), 
+    "PlayerId" : NumberInt(1), 
+    "PlayerName" : "Nicolas Batum"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76deb9a"), 
+    "PlayerId" : NumberInt(2), 
+    "PlayerName" : "LaMarcus Aldridge"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76deb9b"), 
+    "PlayerId" : NumberInt(3), 
+    "PlayerName" : "Robin Lopez"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76deb9c"), 
+    "PlayerId" : NumberInt(4), 
+    "PlayerName" : "Wesley Matthews"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76deb9d"), 
+    "PlayerId" : NumberInt(5), 
+    "PlayerName" : "Damian Lillard"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76deb9e"), 
+    "PlayerId" : NumberInt(6), 
+    "PlayerName" : "Thomas Robinson"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76deb9f"), 
+    "PlayerId" : NumberInt(7), 
+    "PlayerName" : "Maurice Williams"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76deba0"), 
+    "PlayerId" : NumberInt(8), 
+    "PlayerName" : "Will Barton"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76deba1"), 
+    "PlayerId" : NumberInt(9), 
+    "PlayerName" : "Dorell Wright"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76deba2"), 
+    "PlayerId" : NumberInt(10), 
+    "PlayerName" : "Earl Watson"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76deba3"), 
+    "PlayerId" : NumberInt(11), 
+    "PlayerName" : "CJ McCollum"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76deba4"), 
+    "PlayerId" : NumberInt(12), 
+    "PlayerName" : "Meyers Leonard"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76deba5"), 
+    "PlayerId" : NumberInt(13), 
+    "PlayerName" : "Victor Claver"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76deba6"), 
+    "PlayerId" : NumberInt(14), 
+    "PlayerName" : "Kent Bazemore"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76deba7"), 
+    "PlayerId" : NumberInt(15), 
+    "PlayerName" : "Pau Gasol"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76deba8"), 
+    "PlayerId" : NumberInt(16), 
+    "PlayerName" : "Chris Kaman"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76deba9"), 
+    "PlayerId" : NumberInt(17), 
+    "PlayerName" : "Jodie Meeks"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debaa"), 
+    "PlayerId" : NumberInt(18), 
+    "PlayerName" : "Kendall Marshall"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debab"), 
+    "PlayerId" : NumberInt(19), 
+    "PlayerName" : "Steve Nash"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debac"), 
+    "PlayerId" : NumberInt(20), 
+    "PlayerName" : "Xavier Henry"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debad"), 
+    "PlayerId" : NumberInt(21), 
+    "PlayerName" : "Robert Sacre"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debae"), 
+    "PlayerId" : NumberInt(22), 
+    "PlayerName" : "Ryan Kelly"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debaf"), 
+    "PlayerId" : NumberInt(23), 
+    "PlayerName" : "Nick Young"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debb0"), 
+    "PlayerId" : NumberInt(24), 
+    "PlayerName" : "Marshon Brooks"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debb1"), 
+    "PlayerId" : NumberInt(25), 
+    "PlayerName" : "Jordan Hill"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debb2"), 
+    "PlayerId" : NumberInt(26), 
+    "PlayerName" : "Wesley Johnson"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debb3"), 
+    "PlayerId" : NumberInt(27), 
+    "PlayerName" : "Andre Iguodala"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debb4"), 
+    "PlayerId" : NumberInt(28), 
+    "PlayerName" : "Draymond Green"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debb5"), 
+    "PlayerId" : NumberInt(29), 
+    "PlayerName" : "Jermaine O'Neal"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debb6"), 
+    "PlayerId" : NumberInt(30), 
+    "PlayerName" : "Klay Thompson"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debb7"), 
+    "PlayerId" : NumberInt(31), 
+    "PlayerName" : "Stephen Curry"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debb8"), 
+    "PlayerId" : NumberInt(32), 
+    "PlayerName" : "Marreese Speights"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debb9"), 
+    "PlayerId" : NumberInt(33), 
+    "PlayerName" : "Harrison Barnes"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debba"), 
+    "PlayerId" : NumberInt(34), 
+    "PlayerName" : "Steve Blake"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debbb"), 
+    "PlayerId" : NumberInt(35), 
+    "PlayerName" : "Jordan Crawford"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debbc"), 
+    "PlayerId" : NumberInt(36), 
+    "PlayerName" : "Hilton Armstrong"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debbd"), 
+    "PlayerId" : NumberInt(37), 
+    "PlayerName" : "Andrew Bogut"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debbe"), 
+    "PlayerId" : NumberInt(38), 
+    "PlayerName" : "David Lee"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debbf"), 
+    "PlayerId" : NumberInt(39), 
+    "PlayerName" : "Shawn Marion"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debc0"), 
+    "PlayerId" : NumberInt(40), 
+    "PlayerName" : "Dirk Nowitzki"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debc1"), 
+    "PlayerId" : NumberInt(41), 
+    "PlayerName" : "Samuel Dalembert"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debc2"), 
+    "PlayerId" : NumberInt(42), 
+    "PlayerName" : "Monta Ellis"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debc3"), 
+    "PlayerId" : NumberInt(43), 
+    "PlayerName" : "Jose Calderon"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debc4"), 
+    "PlayerId" : NumberInt(44), 
+    "PlayerName" : "Vince Carter"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debc5"), 
+    "PlayerId" : NumberInt(45), 
+    "PlayerName" : "Brandan Wright"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debc6"), 
+    "PlayerId" : NumberInt(46), 
+    "PlayerName" : "Devin Harris"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debc7"), 
+    "PlayerId" : NumberInt(47), 
+    "PlayerName" : "Jae Crowder"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debc8"), 
+    "PlayerId" : NumberInt(48), 
+    "PlayerName" : "DeJuan Blair"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debc9"), 
+    "PlayerId" : NumberInt(49), 
+    "PlayerName" : "Wayne Ellington"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debca"), 
+    "PlayerId" : NumberInt(50), 
+    "PlayerName" : "Bernard James"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debcb"), 
+    "PlayerId" : NumberInt(51), 
+    "PlayerName" : "Shane Larkin"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debcc"), 
+    "PlayerId" : NumberInt(52), 
+    "PlayerName" : "Chandler Parsons"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debcd"), 
+    "PlayerId" : NumberInt(53), 
+    "PlayerName" : "Donatas Motiejunas"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debce"), 
+    "PlayerId" : NumberInt(54), 
+    "PlayerName" : "Omer Asik"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debcf"), 
+    "PlayerId" : NumberInt(55), 
+    "PlayerName" : "James Harden"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debd0"), 
+    "PlayerId" : NumberInt(56), 
+    "PlayerName" : "Jeremy Lin"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debd1"), 
+    "PlayerId" : NumberInt(57), 
+    "PlayerName" : "Omri Casspi"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debd2"), 
+    "PlayerId" : NumberInt(58), 
+    "PlayerName" : "Francisco Garcia"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debd3"), 
+    "PlayerId" : NumberInt(59), 
+    "PlayerName" : "Isaiah Canaan"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debd4"), 
+    "PlayerId" : NumberInt(60), 
+    "PlayerName" : "Jordan Hamilton"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debd5"), 
+    "PlayerId" : NumberInt(61), 
+    "PlayerName" : "Patrick Beverley"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debd6"), 
+    "PlayerId" : NumberInt(62), 
+    "PlayerName" : "Dwight Howard"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debd7"), 
+    "PlayerId" : NumberInt(63), 
+    "PlayerName" : "Terrence Jones"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debd8"), 
+    "PlayerId" : NumberInt(64), 
+    "PlayerName" : "Greg Smith"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debd9"), 
+    "PlayerId" : NumberInt(65), 
+    "PlayerName" : "Joe Johnson"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debda"), 
+    "PlayerId" : NumberInt(66), 
+    "PlayerName" : "Paul Pierce"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debdb"), 
+    "PlayerId" : NumberInt(67), 
+    "PlayerName" : "Mason Plumlee"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debdc"), 
+    "PlayerId" : NumberInt(68), 
+    "PlayerName" : "Shaun Livingston"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debdd"), 
+    "PlayerId" : NumberInt(69), 
+    "PlayerName" : "Deron Williams"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debde"), 
+    "PlayerId" : NumberInt(70), 
+    "PlayerName" : "Alan Anderson"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debdf"), 
+    "PlayerId" : NumberInt(71), 
+    "PlayerName" : "Andray Blatche"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debe0"), 
+    "PlayerId" : NumberInt(72), 
+    "PlayerName" : "Mizra Teletovic"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debe1"), 
+    "PlayerId" : NumberInt(73), 
+    "PlayerName" : "Jorge Gutierrez"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debe2"), 
+    "PlayerId" : NumberInt(74), 
+    "PlayerName" : "Marquis Teague"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debe3"), 
+    "PlayerId" : NumberInt(75), 
+    "PlayerName" : "Jason Collins"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debe4"), 
+    "PlayerId" : NumberInt(76), 
+    "PlayerName" : "Andrei Kirilenko"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debe5"), 
+    "PlayerId" : NumberInt(77), 
+    "PlayerName" : "Marcus Thornton"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debe6"), 
+    "PlayerId" : NumberInt(78), 
+    "PlayerName" : "JR Smith"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debe7"), 
+    "PlayerId" : NumberInt(79), 
+    "PlayerName" : "Carmelo Anthony"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debe8"), 
+    "PlayerId" : NumberInt(80), 
+    "PlayerName" : "Tyson Chandler"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debe9"), 
+    "PlayerId" : NumberInt(81), 
+    "PlayerName" : "Iman Shumpert"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debea"), 
+    "PlayerId" : NumberInt(82), 
+    "PlayerName" : "Raymond Felton"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debeb"), 
+    "PlayerId" : NumberInt(83), 
+    "PlayerName" : "Timothy Hardaway Jr."
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debec"), 
+    "PlayerId" : NumberInt(84), 
+    "PlayerName" : "Pablo Prigioni"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debed"), 
+    "PlayerId" : NumberInt(85), 
+    "PlayerName" : "Cole Aldrich"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debee"), 
+    "PlayerId" : NumberInt(86), 
+    "PlayerName" : "Jeremy Tyler"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debef"), 
+    "PlayerId" : NumberInt(87), 
+    "PlayerName" : "Shannon Brown"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debf0"), 
+    "PlayerId" : NumberInt(88), 
+    "PlayerName" : "Toure Murry"
+}
+{ 
+    "_id" : ObjectId("5a212f3db43ac103c76debf1"), 
+    "PlayerId" : NumberInt(89), 
+    "PlayerName" : "Amar'e Stoudemire"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76debf2"), 
+    "PlayerId" : NumberInt(90), 
+    "PlayerName" : "Richard Jefferson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76debf3"), 
+    "PlayerId" : NumberInt(91), 
+    "PlayerName" : "Marvin Williams"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76debf4"), 
+    "PlayerId" : NumberInt(92), 
+    "PlayerName" : "Derrick Favors"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76debf5"), 
+    "PlayerId" : NumberInt(93), 
+    "PlayerName" : "Gordon Hayward"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76debf6"), 
+    "PlayerId" : NumberInt(94), 
+    "PlayerName" : "Trey Burke"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76debf7"), 
+    "PlayerId" : NumberInt(95), 
+    "PlayerName" : "Enes Kanter"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76debf8"), 
+    "PlayerId" : NumberInt(96), 
+    "PlayerName" : "Alec Burks"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76debf9"), 
+    "PlayerId" : NumberInt(97), 
+    "PlayerName" : "Diante Garrett"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76debfa"), 
+    "PlayerId" : NumberInt(98), 
+    "PlayerName" : "Ian Clark"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76debfb"), 
+    "PlayerId" : NumberInt(99), 
+    "PlayerName" : "Rudy Gobert"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76debfc"), 
+    "PlayerId" : NumberInt(100), 
+    "PlayerName" : "Jeremy Evans"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76debfd"), 
+    "PlayerId" : NumberInt(101), 
+    "PlayerName" : "John Lucas III"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76debfe"), 
+    "PlayerId" : NumberInt(102), 
+    "PlayerName" : "Brandon Rush"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76debff"), 
+    "PlayerId" : NumberInt(103), 
+    "PlayerName" : "Tayshaun Prince"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec00"), 
+    "PlayerId" : NumberInt(104), 
+    "PlayerName" : "Zach Randolph"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec01"), 
+    "PlayerId" : NumberInt(105), 
+    "PlayerName" : "Marc Gasol"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec02"), 
+    "PlayerId" : NumberInt(106), 
+    "PlayerName" : "Courtney Lee"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec03"), 
+    "PlayerId" : NumberInt(107), 
+    "PlayerName" : "Mike Conley"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec04"), 
+    "PlayerId" : NumberInt(108), 
+    "PlayerName" : "Nick Calathes"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec05"), 
+    "PlayerId" : NumberInt(109), 
+    "PlayerName" : "Ed Davis"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec06"), 
+    "PlayerId" : NumberInt(110), 
+    "PlayerName" : "Mike Miller"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec07"), 
+    "PlayerId" : NumberInt(111), 
+    "PlayerName" : "Kosta Koufos"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec08"), 
+    "PlayerId" : NumberInt(112), 
+    "PlayerName" : "Tony Allen"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec09"), 
+    "PlayerId" : NumberInt(113), 
+    "PlayerName" : "James Johnson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec0a"), 
+    "PlayerId" : NumberInt(114), 
+    "PlayerName" : "Jon Leuer"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec0b"), 
+    "PlayerId" : NumberInt(115), 
+    "PlayerName" : "Beno Udrih"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec0c"), 
+    "PlayerId" : NumberInt(116), 
+    "PlayerName" : "Quincy Miller"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec0d"), 
+    "PlayerId" : NumberInt(117), 
+    "PlayerName" : "Kenneth Faried"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec0e"), 
+    "PlayerId" : NumberInt(118), 
+    "PlayerName" : "Timofey Mozgov"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec0f"), 
+    "PlayerId" : NumberInt(119), 
+    "PlayerName" : "Randy Foye"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec10"), 
+    "PlayerId" : NumberInt(120), 
+    "PlayerName" : "Ty Lawson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec11"), 
+    "PlayerId" : NumberInt(121), 
+    "PlayerName" : "Darrell Arthur"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec12"), 
+    "PlayerId" : NumberInt(122), 
+    "PlayerName" : "Evan Fournier"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec13"), 
+    "PlayerId" : NumberInt(123), 
+    "PlayerName" : "Aaron Brooks"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec14"), 
+    "PlayerId" : NumberInt(124), 
+    "PlayerName" : "Jan Vesely"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec15"), 
+    "PlayerId" : NumberInt(125), 
+    "PlayerName" : "Wilson Chandler"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec16"), 
+    "PlayerId" : NumberInt(126), 
+    "PlayerName" : "JJ Hickson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec17"), 
+    "PlayerId" : NumberInt(127), 
+    "PlayerName" : "Anthony Randolph"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec18"), 
+    "PlayerId" : NumberInt(128), 
+    "PlayerName" : "Nate Robinson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec19"), 
+    "PlayerId" : NumberInt(129), 
+    "PlayerName" : "Rudy Gay"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec1a"), 
+    "PlayerId" : NumberInt(130), 
+    "PlayerName" : "Reggie Evans"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec1b"), 
+    "PlayerId" : NumberInt(131), 
+    "PlayerName" : "DeMarcus Cousins"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec1c"), 
+    "PlayerId" : NumberInt(132), 
+    "PlayerName" : "Ben McLemore"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec1d"), 
+    "PlayerId" : NumberInt(133), 
+    "PlayerName" : "Ray McCallum"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec1e"), 
+    "PlayerId" : NumberInt(134), 
+    "PlayerName" : "Travis Outlaw"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec1f"), 
+    "PlayerId" : NumberInt(135), 
+    "PlayerName" : "Derrick Williams"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec20"), 
+    "PlayerId" : NumberInt(136), 
+    "PlayerName" : "Jared Cunningham"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec21"), 
+    "PlayerId" : NumberInt(137), 
+    "PlayerName" : "Jason Thompson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec22"), 
+    "PlayerId" : NumberInt(138), 
+    "PlayerName" : "Quincy Acy"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec23"), 
+    "PlayerId" : NumberInt(139), 
+    "PlayerName" : "Aaron Gray"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec24"), 
+    "PlayerId" : NumberInt(140), 
+    "PlayerName" : "Isaiah Thomas"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec25"), 
+    "PlayerId" : NumberInt(141), 
+    "PlayerName" : "Al-Farouq Aminu"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec26"), 
+    "PlayerId" : NumberInt(142), 
+    "PlayerName" : "Anthony Davis"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec27"), 
+    "PlayerId" : NumberInt(143), 
+    "PlayerName" : "Greg Stiemsma"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec28"), 
+    "PlayerId" : NumberInt(144), 
+    "PlayerName" : "Tyreke Evans"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec29"), 
+    "PlayerId" : NumberInt(145), 
+    "PlayerName" : "Brian Roberts"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec2a"), 
+    "PlayerId" : NumberInt(146), 
+    "PlayerName" : "Darius Miller"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec2b"), 
+    "PlayerId" : NumberInt(147), 
+    "PlayerName" : "Alexis Ajinca"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec2c"), 
+    "PlayerId" : NumberInt(148), 
+    "PlayerName" : "Austin Rivers"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec2d"), 
+    "PlayerId" : NumberInt(149), 
+    "PlayerName" : "Anthony Morrow"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec2e"), 
+    "PlayerId" : NumberInt(150), 
+    "PlayerName" : "Jeff Withey"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec2f"), 
+    "PlayerId" : NumberInt(151), 
+    "PlayerName" : "Luke Babbitt"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec30"), 
+    "PlayerId" : NumberInt(152), 
+    "PlayerName" : "Eric Gordon"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec31"), 
+    "PlayerId" : NumberInt(153), 
+    "PlayerName" : "Jason Smith"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec32"), 
+    "PlayerId" : NumberInt(154), 
+    "PlayerName" : "Matt Barnes"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec33"), 
+    "PlayerId" : NumberInt(155), 
+    "PlayerName" : "Jared Dudley"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec34"), 
+    "PlayerId" : NumberInt(156), 
+    "PlayerName" : "DeAndre Jordan"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec35"), 
+    "PlayerId" : NumberInt(157), 
+    "PlayerName" : "Darren Collison"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec36"), 
+    "PlayerId" : NumberInt(158), 
+    "PlayerName" : "Chris Paul"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec37"), 
+    "PlayerId" : NumberInt(159), 
+    "PlayerName" : "Hidayet Turkoglu"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec38"), 
+    "PlayerId" : NumberInt(160), 
+    "PlayerName" : "Willie Green"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec39"), 
+    "PlayerId" : NumberInt(161), 
+    "PlayerName" : "Reggie Bullock"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec3a"), 
+    "PlayerId" : NumberInt(162), 
+    "PlayerName" : "Ryan Hollins"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec3b"), 
+    "PlayerId" : NumberInt(163), 
+    "PlayerName" : "Glen Davis"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec3c"), 
+    "PlayerId" : NumberInt(164), 
+    "PlayerName" : "Jamal Crawford"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec3d"), 
+    "PlayerId" : NumberInt(165), 
+    "PlayerName" : "Danny Granger"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec3e"), 
+    "PlayerId" : NumberInt(166), 
+    "PlayerName" : "Blake Griffin"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec3f"), 
+    "PlayerId" : NumberInt(167), 
+    "PlayerName" : "Corey Brewer"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec40"), 
+    "PlayerId" : NumberInt(168), 
+    "PlayerName" : "Kevin Love"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec41"), 
+    "PlayerId" : NumberInt(169), 
+    "PlayerName" : "Hidayet Turkoglu"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec42"), 
+    "PlayerId" : NumberInt(170), 
+    "PlayerName" : "Kevin Martin"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec43"), 
+    "PlayerId" : NumberInt(171), 
+    "PlayerName" : "Ricky Rubio"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec44"), 
+    "PlayerId" : NumberInt(172), 
+    "PlayerName" : "Gorgui Dieng"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec45"), 
+    "PlayerId" : NumberInt(173), 
+    "PlayerName" : "Jose Barea"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec46"), 
+    "PlayerId" : NumberInt(174), 
+    "PlayerName" : "Dante Cunningham"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec47"), 
+    "PlayerId" : NumberInt(175), 
+    "PlayerName" : "Chase Budinger"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec48"), 
+    "PlayerId" : NumberInt(176), 
+    "PlayerName" : "Robbie Hummel"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec49"), 
+    "PlayerId" : NumberInt(177), 
+    "PlayerName" : "Shabazz Muhammad"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec4a"), 
+    "PlayerId" : NumberInt(178), 
+    "PlayerName" : "Luc Mbah a Moute"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec4b"), 
+    "PlayerId" : NumberInt(179), 
+    "PlayerName" : "Alexey Shved"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec4c"), 
+    "PlayerId" : NumberInt(180), 
+    "PlayerName" : "Jeff Green"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec4d"), 
+    "PlayerId" : NumberInt(181), 
+    "PlayerName" : "Brandon Bass"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec4e"), 
+    "PlayerId" : NumberInt(182), 
+    "PlayerName" : "Kris Humphries"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec4f"), 
+    "PlayerId" : NumberInt(183), 
+    "PlayerName" : "Avery Bradley"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec50"), 
+    "PlayerId" : NumberInt(184), 
+    "PlayerName" : "Jerryd Bayless"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec51"), 
+    "PlayerId" : NumberInt(185), 
+    "PlayerName" : "Jared Sullinger"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec52"), 
+    "PlayerId" : NumberInt(186), 
+    "PlayerName" : "Christapher Johnson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec53"), 
+    "PlayerId" : NumberInt(187), 
+    "PlayerName" : "Phil Pressey"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec54"), 
+    "PlayerId" : NumberInt(188), 
+    "PlayerName" : "Kelly Olynyk"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec55"), 
+    "PlayerId" : NumberInt(189), 
+    "PlayerName" : "Chris Babb"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec56"), 
+    "PlayerId" : NumberInt(190), 
+    "PlayerName" : "Joel Anthony"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec57"), 
+    "PlayerId" : NumberInt(191), 
+    "PlayerName" : "Rajon Rondo"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec58"), 
+    "PlayerId" : NumberInt(192), 
+    "PlayerName" : "Mike Dunleavy"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec59"), 
+    "PlayerId" : NumberInt(193), 
+    "PlayerName" : "Carlos Boozer"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec5a"), 
+    "PlayerId" : NumberInt(194), 
+    "PlayerName" : "Joakim Noah"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec5b"), 
+    "PlayerId" : NumberInt(195), 
+    "PlayerName" : "Jimmy Butler"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec5c"), 
+    "PlayerId" : NumberInt(196), 
+    "PlayerName" : "Kirk Hinrich"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec5d"), 
+    "PlayerId" : NumberInt(197), 
+    "PlayerName" : "DJ Augustin"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec5e"), 
+    "PlayerId" : NumberInt(198), 
+    "PlayerName" : "Taj Gibson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec5f"), 
+    "PlayerId" : NumberInt(199), 
+    "PlayerName" : "Nazr Mohammed"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec60"), 
+    "PlayerId" : NumberInt(200), 
+    "PlayerName" : "Tony Snell"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec61"), 
+    "PlayerId" : NumberInt(201), 
+    "PlayerName" : "Jimmer Fredette"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec62"), 
+    "PlayerId" : NumberInt(202), 
+    "PlayerName" : "Erik Murphy"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec63"), 
+    "PlayerId" : NumberInt(203), 
+    "PlayerName" : "Tornike Shengelia"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec64"), 
+    "PlayerId" : NumberInt(204), 
+    "PlayerName" : "Terrence Ross"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec65"), 
+    "PlayerId" : NumberInt(205), 
+    "PlayerName" : "Amir Johnson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec66"), 
+    "PlayerId" : NumberInt(206), 
+    "PlayerName" : "Jonas Valanciunas"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec67"), 
+    "PlayerId" : NumberInt(207), 
+    "PlayerName" : "Demar DeRozan"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec68"), 
+    "PlayerId" : NumberInt(208), 
+    "PlayerName" : "Kyle Lowry"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec69"), 
+    "PlayerId" : NumberInt(209), 
+    "PlayerName" : "Patrick Patterson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec6a"), 
+    "PlayerId" : NumberInt(210), 
+    "PlayerName" : "Steve Novak"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec6b"), 
+    "PlayerId" : NumberInt(211), 
+    "PlayerName" : "John Salmons"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec6c"), 
+    "PlayerId" : NumberInt(212), 
+    "PlayerName" : "Greivis Vasquez"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec6d"), 
+    "PlayerId" : NumberInt(213), 
+    "PlayerName" : "Chuck Hayes"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec6e"), 
+    "PlayerId" : NumberInt(214), 
+    "PlayerName" : "Nando De Colo"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec6f"), 
+    "PlayerId" : NumberInt(215), 
+    "PlayerName" : "Landry Fields"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec70"), 
+    "PlayerId" : NumberInt(216), 
+    "PlayerName" : "Tyler Hansbrough"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec71"), 
+    "PlayerId" : NumberInt(217), 
+    "PlayerName" : "Lebron James"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec72"), 
+    "PlayerId" : NumberInt(218), 
+    "PlayerName" : "Udonis Haslem"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec73"), 
+    "PlayerId" : NumberInt(219), 
+    "PlayerName" : "Chris Bosh"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec74"), 
+    "PlayerId" : NumberInt(220), 
+    "PlayerName" : "Toney Douglas"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec75"), 
+    "PlayerId" : NumberInt(221), 
+    "PlayerName" : "Mario Chalmers"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec76"), 
+    "PlayerId" : NumberInt(222), 
+    "PlayerName" : "Rashad Lewis"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec77"), 
+    "PlayerId" : NumberInt(223), 
+    "PlayerName" : "Norris Cole"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec78"), 
+    "PlayerId" : NumberInt(224), 
+    "PlayerName" : "James Jones"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec79"), 
+    "PlayerId" : NumberInt(225), 
+    "PlayerName" : "Chris Andersen"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec7a"), 
+    "PlayerId" : NumberInt(226), 
+    "PlayerName" : "Shane Battier"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec7b"), 
+    "PlayerId" : NumberInt(227), 
+    "PlayerName" : "Michael Beasley"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec7c"), 
+    "PlayerId" : NumberInt(228), 
+    "PlayerName" : "Justin Hamilton"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec7d"), 
+    "PlayerId" : NumberInt(229), 
+    "PlayerName" : "Dwayne Wade"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec7e"), 
+    "PlayerId" : NumberInt(230), 
+    "PlayerName" : "Khris Middleton"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec7f"), 
+    "PlayerId" : NumberInt(231), 
+    "PlayerName" : "Jeff Adrien"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec80"), 
+    "PlayerId" : NumberInt(232), 
+    "PlayerName" : "Zaza Pachulia"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec81"), 
+    "PlayerId" : NumberInt(233), 
+    "PlayerName" : "Ramon Sessions"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec82"), 
+    "PlayerId" : NumberInt(234), 
+    "PlayerName" : "Brandon Knight"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec83"), 
+    "PlayerId" : NumberInt(235), 
+    "PlayerName" : "Giannis Antetokounmpo"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec84"), 
+    "PlayerId" : NumberInt(236), 
+    "PlayerName" : "John Henson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec85"), 
+    "PlayerId" : NumberInt(237), 
+    "PlayerName" : "Ekpe Udoh"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec86"), 
+    "PlayerId" : NumberInt(238), 
+    "PlayerName" : "Ersan Ilyasova"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec87"), 
+    "PlayerId" : NumberInt(239), 
+    "PlayerName" : "OJ Mayo"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec88"), 
+    "PlayerId" : NumberInt(240), 
+    "PlayerName" : "Miroslav Raduljica"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec89"), 
+    "PlayerId" : NumberInt(241), 
+    "PlayerName" : "DJ Stephens"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec8a"), 
+    "PlayerId" : NumberInt(242), 
+    "PlayerName" : "Nate Wolters"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec8b"), 
+    "PlayerId" : NumberInt(243), 
+    "PlayerName" : "Josh Smith"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec8c"), 
+    "PlayerId" : NumberInt(244), 
+    "PlayerName" : "Greg Monroe"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec8d"), 
+    "PlayerId" : NumberInt(245), 
+    "PlayerName" : "Andre Drummond"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec8e"), 
+    "PlayerId" : NumberInt(246), 
+    "PlayerName" : "Kyle Singler"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec8f"), 
+    "PlayerId" : NumberInt(247), 
+    "PlayerName" : "Brandon Jennings"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec90"), 
+    "PlayerId" : NumberInt(248), 
+    "PlayerName" : "Rodney Stuckey"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec91"), 
+    "PlayerId" : NumberInt(249), 
+    "PlayerName" : "Jonas Jerebko"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec92"), 
+    "PlayerId" : NumberInt(250), 
+    "PlayerName" : "Kentavious Caldwell-Pope"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec93"), 
+    "PlayerId" : NumberInt(251), 
+    "PlayerName" : "Will Bynum"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec94"), 
+    "PlayerId" : NumberInt(252), 
+    "PlayerName" : "Charlie Villanueva"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec95"), 
+    "PlayerId" : NumberInt(253), 
+    "PlayerName" : "Luigi Datome"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec96"), 
+    "PlayerId" : NumberInt(254), 
+    "PlayerName" : "Tony Mitchell"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec97"), 
+    "PlayerId" : NumberInt(255), 
+    "PlayerName" : "Peyton Siva"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec98"), 
+    "PlayerId" : NumberInt(256), 
+    "PlayerName" : "Hollis Thompson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec99"), 
+    "PlayerId" : NumberInt(257), 
+    "PlayerName" : "Thaddeus Young"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec9a"), 
+    "PlayerId" : NumberInt(258), 
+    "PlayerName" : "Henry Sims"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec9b"), 
+    "PlayerId" : NumberInt(259), 
+    "PlayerName" : "James Anderson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec9c"), 
+    "PlayerId" : NumberInt(260), 
+    "PlayerName" : "Michael Carter-Williams"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec9d"), 
+    "PlayerId" : NumberInt(261), 
+    "PlayerName" : "Tony Wroten"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec9e"), 
+    "PlayerId" : NumberInt(262), 
+    "PlayerName" : "Jarvis Varnado"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dec9f"), 
+    "PlayerId" : NumberInt(263), 
+    "PlayerName" : "Elliot Williams"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76deca0"), 
+    "PlayerId" : NumberInt(264), 
+    "PlayerName" : "Casper Ware"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76deca1"), 
+    "PlayerId" : NumberInt(265), 
+    "PlayerName" : "Brandon Davies"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76deca2"), 
+    "PlayerId" : NumberInt(266), 
+    "PlayerName" : "Arnett Moultrie"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76deca3"), 
+    "PlayerId" : NumberInt(267), 
+    "PlayerName" : "James Nunnally"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76deca4"), 
+    "PlayerId" : NumberInt(268), 
+    "PlayerName" : "DeMarre Carroll"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76deca5"), 
+    "PlayerId" : NumberInt(269), 
+    "PlayerName" : "Paul Millsap"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76deca6"), 
+    "PlayerId" : NumberInt(270), 
+    "PlayerName" : "Pero Antic"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76deca7"), 
+    "PlayerId" : NumberInt(271), 
+    "PlayerName" : "Kyle Korver"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76deca8"), 
+    "PlayerId" : NumberInt(272), 
+    "PlayerName" : "Jeff Teague"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76deca9"), 
+    "PlayerId" : NumberInt(273), 
+    "PlayerName" : "Louis Williams"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decaa"), 
+    "PlayerId" : NumberInt(274), 
+    "PlayerName" : "Elton Brand"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decab"), 
+    "PlayerId" : NumberInt(275), 
+    "PlayerName" : "Mike Scott"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decac"), 
+    "PlayerId" : NumberInt(276), 
+    "PlayerName" : "Dennis Schroder"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decad"), 
+    "PlayerId" : NumberInt(277), 
+    "PlayerName" : "Mike Muscala"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decae"), 
+    "PlayerId" : NumberInt(278), 
+    "PlayerName" : "Shelvin Mack"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decaf"), 
+    "PlayerId" : NumberInt(279), 
+    "PlayerName" : "Cartier Martin"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decb0"), 
+    "PlayerId" : NumberInt(280), 
+    "PlayerName" : "Trevor Ariza"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decb1"), 
+    "PlayerId" : NumberInt(281), 
+    "PlayerName" : "Trevor Booker"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decb2"), 
+    "PlayerId" : NumberInt(282), 
+    "PlayerName" : "Marcin Gortat"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decb3"), 
+    "PlayerId" : NumberInt(283), 
+    "PlayerName" : "Bradley Beal"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decb4"), 
+    "PlayerId" : NumberInt(284), 
+    "PlayerName" : "John Wall"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decb5"), 
+    "PlayerId" : NumberInt(285), 
+    "PlayerName" : "Drew Gooden"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decb6"), 
+    "PlayerId" : NumberInt(286), 
+    "PlayerName" : "Martell Webster"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decb7"), 
+    "PlayerId" : NumberInt(287), 
+    "PlayerName" : "Al Harrington"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decb8"), 
+    "PlayerId" : NumberInt(288), 
+    "PlayerName" : "Andre Miller"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decb9"), 
+    "PlayerId" : NumberInt(289), 
+    "PlayerName" : "Kevin Seraphin"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decba"), 
+    "PlayerId" : NumberInt(290), 
+    "PlayerName" : "Otto Porter"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decbb"), 
+    "PlayerId" : NumberInt(291), 
+    "PlayerName" : "Chris Singleton"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decbc"), 
+    "PlayerId" : NumberInt(292), 
+    "PlayerName" : "Garrett Temple"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decbd"), 
+    "PlayerId" : NumberInt(293), 
+    "PlayerName" : "Michael Kidd-Gilchrist"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decbe"), 
+    "PlayerId" : NumberInt(294), 
+    "PlayerName" : "Josh McRoberts"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decbf"), 
+    "PlayerId" : NumberInt(295), 
+    "PlayerName" : "Al Jefferson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decc0"), 
+    "PlayerId" : NumberInt(296), 
+    "PlayerName" : "Gerald Henderson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decc1"), 
+    "PlayerId" : NumberInt(297), 
+    "PlayerName" : "Kemba Walker"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decc2"), 
+    "PlayerId" : NumberInt(298), 
+    "PlayerName" : "Cody Zeller"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decc3"), 
+    "PlayerId" : NumberInt(299), 
+    "PlayerName" : "Bismack Biyombo"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decc4"), 
+    "PlayerId" : NumberInt(300), 
+    "PlayerName" : "Gary Neal"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decc5"), 
+    "PlayerId" : NumberInt(301), 
+    "PlayerName" : "Luke Ridnour"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decc6"), 
+    "PlayerId" : NumberInt(302), 
+    "PlayerName" : "Chris Douglas-Roberts"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decc7"), 
+    "PlayerId" : NumberInt(303), 
+    "PlayerName" : "Jannero Pargo"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decc8"), 
+    "PlayerId" : NumberInt(304), 
+    "PlayerName" : "Anthony Tolliver"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decc9"), 
+    "PlayerId" : NumberInt(305), 
+    "PlayerName" : "DJ White"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decca"), 
+    "PlayerId" : NumberInt(306), 
+    "PlayerName" : "Paul George"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76deccb"), 
+    "PlayerId" : NumberInt(307), 
+    "PlayerName" : "David West"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76deccc"), 
+    "PlayerId" : NumberInt(308), 
+    "PlayerName" : "Roy Hibbert"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76deccd"), 
+    "PlayerId" : NumberInt(309), 
+    "PlayerName" : "Lance Stephenson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decce"), 
+    "PlayerId" : NumberInt(310), 
+    "PlayerName" : "George Hill"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76deccf"), 
+    "PlayerId" : NumberInt(311), 
+    "PlayerName" : "Luis Scola"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decd0"), 
+    "PlayerId" : NumberInt(312), 
+    "PlayerName" : "Evan Turner"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decd1"), 
+    "PlayerId" : NumberInt(313), 
+    "PlayerName" : "Ian Mahinmi"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decd2"), 
+    "PlayerId" : NumberInt(314), 
+    "PlayerName" : "Rasual Butler"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decd3"), 
+    "PlayerId" : NumberInt(315), 
+    "PlayerName" : "Donald Sloan"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decd4"), 
+    "PlayerId" : NumberInt(316), 
+    "PlayerName" : "Lavoy Allen"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decd5"), 
+    "PlayerId" : NumberInt(317), 
+    "PlayerName" : "Chris Copeland"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decd6"), 
+    "PlayerId" : NumberInt(318), 
+    "PlayerName" : "Solomon Hill"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decd7"), 
+    "PlayerId" : NumberInt(319), 
+    "PlayerName" : "Luol Deng"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decd8"), 
+    "PlayerId" : NumberInt(320), 
+    "PlayerName" : "Tristan Thompson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decd9"), 
+    "PlayerId" : NumberInt(321), 
+    "PlayerName" : "Spencer Hawes"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decda"), 
+    "PlayerId" : NumberInt(322), 
+    "PlayerName" : "Dion Waiters"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decdb"), 
+    "PlayerId" : NumberInt(323), 
+    "PlayerName" : "Kyrie Irving"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decdc"), 
+    "PlayerId" : NumberInt(324), 
+    "PlayerName" : "Jarrett Jack"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decdd"), 
+    "PlayerId" : NumberInt(325), 
+    "PlayerName" : "Matthew Dellavedova"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decde"), 
+    "PlayerId" : NumberInt(326), 
+    "PlayerName" : "Tyler Zeller"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decdf"), 
+    "PlayerId" : NumberInt(327), 
+    "PlayerName" : "Alonzo Gee"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dece0"), 
+    "PlayerId" : NumberInt(328), 
+    "PlayerName" : "Sergey Karasev"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dece1"), 
+    "PlayerId" : NumberInt(329), 
+    "PlayerName" : "Scotty Hopson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dece2"), 
+    "PlayerId" : NumberInt(330), 
+    "PlayerName" : "Anderson Varejao"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dece3"), 
+    "PlayerId" : NumberInt(331), 
+    "PlayerName" : "Maurice Harkless"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dece4"), 
+    "PlayerId" : NumberInt(332), 
+    "PlayerName" : "Kyle O'Quinn"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dece5"), 
+    "PlayerId" : NumberInt(333), 
+    "PlayerName" : "Nikola Vucevic"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dece6"), 
+    "PlayerId" : NumberInt(334), 
+    "PlayerName" : "Arron Afflalo"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dece7"), 
+    "PlayerId" : NumberInt(335), 
+    "PlayerName" : "Jameer Nelson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dece8"), 
+    "PlayerId" : NumberInt(336), 
+    "PlayerName" : "Andrew Nicholson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76dece9"), 
+    "PlayerId" : NumberInt(337), 
+    "PlayerName" : "Victor Oladipo"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decea"), 
+    "PlayerId" : NumberInt(338), 
+    "PlayerName" : "Etwaun Moore"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76deceb"), 
+    "PlayerId" : NumberInt(339), 
+    "PlayerName" : "Tobias Harris"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decec"), 
+    "PlayerId" : NumberInt(340), 
+    "PlayerName" : "Doron Lamb"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76deced"), 
+    "PlayerId" : NumberInt(341), 
+    "PlayerName" : "Dewayne Dedmon"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decee"), 
+    "PlayerId" : NumberInt(342), 
+    "PlayerName" : "Jason Maxiell"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decef"), 
+    "PlayerId" : NumberInt(343), 
+    "PlayerName" : "Ronnie Price"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decf0"), 
+    "PlayerId" : NumberInt(344), 
+    "PlayerName" : "Julyan Stone"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decf1"), 
+    "PlayerId" : NumberInt(345), 
+    "PlayerName" : "Ray Allen"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decf2"), 
+    "PlayerId" : NumberInt(346), 
+    "PlayerName" : "Ronny Turiaf"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decf3"), 
+    "PlayerId" : NumberInt(347), 
+    "PlayerName" : "Kawhi Leonard"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decf4"), 
+    "PlayerId" : NumberInt(348), 
+    "PlayerName" : "Tim Duncan"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decf5"), 
+    "PlayerId" : NumberInt(349), 
+    "PlayerName" : "Boris Diaw"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decf6"), 
+    "PlayerId" : NumberInt(350), 
+    "PlayerName" : "Daniel Green"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decf7"), 
+    "PlayerId" : NumberInt(351), 
+    "PlayerName" : "Tony Parker"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decf8"), 
+    "PlayerId" : NumberInt(352), 
+    "PlayerName" : "Emanuel Ginobli"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decf9"), 
+    "PlayerId" : NumberInt(353), 
+    "PlayerName" : "Tiago Splitter"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decfa"), 
+    "PlayerId" : NumberInt(354), 
+    "PlayerName" : "Patrick Mills"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decfb"), 
+    "PlayerId" : NumberInt(355), 
+    "PlayerName" : "Marco Belinelli"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decfc"), 
+    "PlayerId" : NumberInt(356), 
+    "PlayerName" : "Jeff Ayres"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decfd"), 
+    "PlayerId" : NumberInt(357), 
+    "PlayerName" : "Cory Joseph"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decfe"), 
+    "PlayerId" : NumberInt(358), 
+    "PlayerName" : "Aron Baynes"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76decff"), 
+    "PlayerId" : NumberInt(359), 
+    "PlayerName" : "Austin Daye"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded00"), 
+    "PlayerId" : NumberInt(360), 
+    "PlayerName" : "PJ Tucker"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded01"), 
+    "PlayerId" : NumberInt(361), 
+    "PlayerName" : "Channing Frye"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded02"), 
+    "PlayerId" : NumberInt(362), 
+    "PlayerName" : "Miles Plumlee"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded03"), 
+    "PlayerId" : NumberInt(363), 
+    "PlayerName" : "Goran Dragic"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded04"), 
+    "PlayerId" : NumberInt(364), 
+    "PlayerName" : "Eric Bledsoe"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded05"), 
+    "PlayerId" : NumberInt(365), 
+    "PlayerName" : "Gerald Green"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded06"), 
+    "PlayerId" : NumberInt(366), 
+    "PlayerName" : "Markieff Morris"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded07"), 
+    "PlayerId" : NumberInt(367), 
+    "PlayerName" : "Marcus Morris"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded08"), 
+    "PlayerId" : NumberInt(368), 
+    "PlayerName" : "Ish Smith"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded09"), 
+    "PlayerId" : NumberInt(369), 
+    "PlayerName" : "Dionte Christmas"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded0a"), 
+    "PlayerId" : NumberInt(370), 
+    "PlayerName" : "Archie Goodwin"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded0b"), 
+    "PlayerId" : NumberInt(371), 
+    "PlayerName" : "Alex Len"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded0c"), 
+    "PlayerId" : NumberInt(372), 
+    "PlayerName" : "Shavlik Randolph"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded0d"), 
+    "PlayerId" : NumberInt(373), 
+    "PlayerName" : "Orlando Johnson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded0e"), 
+    "PlayerId" : NumberInt(374), 
+    "PlayerName" : "Royce White"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded0f"), 
+    "PlayerId" : NumberInt(375), 
+    "PlayerName" : "Damion James"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded10"), 
+    "PlayerId" : NumberInt(376), 
+    "PlayerName" : "Kevin Durant"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded11"), 
+    "PlayerId" : NumberInt(377), 
+    "PlayerName" : "Serge Ibaka"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded12"), 
+    "PlayerId" : NumberInt(378), 
+    "PlayerName" : "Kendrick Perkins"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded13"), 
+    "PlayerId" : NumberInt(379), 
+    "PlayerName" : "Andre Roberson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded14"), 
+    "PlayerId" : NumberInt(380), 
+    "PlayerName" : "Russell Westbrook"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded15"), 
+    "PlayerId" : NumberInt(381), 
+    "PlayerName" : "Caron Butler"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded16"), 
+    "PlayerId" : NumberInt(382), 
+    "PlayerName" : "Steven Adams"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded17"), 
+    "PlayerId" : NumberInt(383), 
+    "PlayerName" : "Nick Collison"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded18"), 
+    "PlayerId" : NumberInt(384), 
+    "PlayerName" : "Reggie Jackson"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded19"), 
+    "PlayerId" : NumberInt(385), 
+    "PlayerName" : "Derek Fisher"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded1a"), 
+    "PlayerId" : NumberInt(386), 
+    "PlayerName" : "Jeremy Lamb"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded1b"), 
+    "PlayerId" : NumberInt(387), 
+    "PlayerName" : "Perry Jones"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded1c"), 
+    "PlayerId" : NumberInt(388), 
+    "PlayerName" : "Hasheem Thabeet"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded1d"), 
+    "PlayerId" : NumberInt(389), 
+    "PlayerName" : "JJ Redick"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded1e"), 
+    "PlayerId" : NumberInt(390), 
+    "PlayerName" : "Dwight Buycks"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded1f"), 
+    "PlayerId" : NumberInt(391), 
+    "PlayerName" : "David Lee"
+}
+{ 
+    "_id" : ObjectId("5a212f3eb43ac103c76ded20"), 
+    "PlayerId" : NumberInt(392), 
+    "PlayerName" : "Nikola Pekovic"
+}

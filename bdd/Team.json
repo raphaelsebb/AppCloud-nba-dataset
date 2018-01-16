@@ -1,0 +1,150 @@
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded28"), 
+    "TeamId" : NumberInt(1), 
+    "TeamName" : "Portland Trail Blazers"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded29"), 
+    "TeamId" : NumberInt(2), 
+    "TeamName" : "Los Angeles Lakers"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded2a"), 
+    "TeamId" : NumberInt(3), 
+    "TeamName" : "Golden State Warriors"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded2b"), 
+    "TeamId" : NumberInt(4), 
+    "TeamName" : "Dallas Mavericks"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded2c"), 
+    "TeamId" : NumberInt(5), 
+    "TeamName" : "Houston Rockets"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded2d"), 
+    "TeamId" : NumberInt(6), 
+    "TeamName" : "Brooklyn Nets"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded2e"), 
+    "TeamId" : NumberInt(7), 
+    "TeamName" : "New York Knicks"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded2f"), 
+    "TeamId" : NumberInt(8), 
+    "TeamName" : "Utah Jazz"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded30"), 
+    "TeamId" : NumberInt(9), 
+    "TeamName" : "Memphis Grizzlies"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded31"), 
+    "TeamId" : NumberInt(10), 
+    "TeamName" : "Denver Nuggets"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded32"), 
+    "TeamId" : NumberInt(11), 
+    "TeamName" : "Sacramento Kings"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded33"), 
+    "TeamId" : NumberInt(12), 
+    "TeamName" : "New Orleans Pelicans"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded34"), 
+    "TeamId" : NumberInt(13), 
+    "TeamName" : "Los Angeles Clippers"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded35"), 
+    "TeamId" : NumberInt(14), 
+    "TeamName" : "Minnesota Timberwolves"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded36"), 
+    "TeamId" : NumberInt(15), 
+    "TeamName" : "Boston Celtics"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded37"), 
+    "TeamId" : NumberInt(16), 
+    "TeamName" : "Chicago Bulls"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded38"), 
+    "TeamId" : NumberInt(17), 
+    "TeamName" : "Toronto Raptors"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded39"), 
+    "TeamId" : NumberInt(18), 
+    "TeamName" : "Miami Heat"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded3a"), 
+    "TeamId" : NumberInt(19), 
+    "TeamName" : "Milwaukee Bucks"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded3b"), 
+    "TeamId" : NumberInt(20), 
+    "TeamName" : "Detroit Pistons"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded3c"), 
+    "TeamId" : NumberInt(21), 
+    "TeamName" : "Philadelphia 76ers"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded3d"), 
+    "TeamId" : NumberInt(22), 
+    "TeamName" : "Atlanta Hawks"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded3e"), 
+    "TeamId" : NumberInt(23), 
+    "TeamName" : "Washington Wizards"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded3f"), 
+    "TeamId" : NumberInt(24), 
+    "TeamName" : "Charlotte Bobcats"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded40"), 
+    "TeamId" : NumberInt(25), 
+    "TeamName" : "Indiana Pacers"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded41"), 
+    "TeamId" : NumberInt(26), 
+    "TeamName" : "Cleveland Cavaliers"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded42"), 
+    "TeamId" : NumberInt(27), 
+    "TeamName" : "Orlando Magic"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded43"), 
+    "TeamId" : NumberInt(28), 
+    "TeamName" : "San Antonio Spurs"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded44"), 
+    "TeamId" : NumberInt(29), 
+    "TeamName" : "Phoenix Suns"
+}
+{ 
+    "_id" : ObjectId("5a212f5eb43ac103c76ded45"), 
+    "TeamId" : NumberInt(30), 
+    "TeamName" : "Oklahoma City Thunder"
+}

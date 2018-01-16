@@ -1,0 +1,510 @@
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb74"), 
+    "GameId" : NumberInt(1), 
+    "ResultOfTeam1" : NumberInt(1), 
+    "URL" : "http://www.nba.com/games/20140331/NYKUTA/gameinfo.html", 
+    "Date" : ISODate("2014-03-31T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded2e"), 
+        "TeamId" : NumberInt(7), 
+        "TeamName" : "New York Knicks"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded2f"), 
+        "TeamId" : NumberInt(8), 
+        "TeamName" : "Utah Jazz"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb75"), 
+    "GameId" : NumberInt(2), 
+    "ResultOfTeam1" : NumberInt(1), 
+    "URL" : "http://www.nba.com/games/20140331/MEMDEN/gameinfo.html", 
+    "Date" : ISODate("2014-03-31T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded30"), 
+        "TeamId" : NumberInt(9), 
+        "TeamName" : "Memphis Grizzlies"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded31"), 
+        "TeamId" : NumberInt(10), 
+        "TeamName" : "Denver Nuggets"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb76"), 
+    "GameId" : NumberInt(3), 
+    "ResultOfTeam1" : NumberInt(1), 
+    "URL" : "http://www.nba.com/games/20140331/SACNOP/gameinfo.html", 
+    "Date" : ISODate("2014-03-31T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded32"), 
+        "TeamId" : NumberInt(11), 
+        "TeamName" : "Sacramento Kings"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded33"), 
+        "TeamId" : NumberInt(12), 
+        "TeamName" : "New Orleans Pelicans"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb77"), 
+    "GameId" : NumberInt(4), 
+    "ResultOfTeam1" : NumberInt(1), 
+    "URL" : "http://www.nba.com/games/20140331/LACMIN/gameinfo.html", 
+    "Date" : ISODate("2014-03-31T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded34"), 
+        "TeamId" : NumberInt(13), 
+        "TeamName" : "Los Angeles Clippers"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded35"), 
+        "TeamId" : NumberInt(14), 
+        "TeamName" : "Minnesota Timberwolves"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb78"), 
+    "GameId" : NumberInt(5), 
+    "ResultOfTeam1" : NumberInt(-1), 
+    "URL" : "http://www.nba.com/games/20140331/BOSCHI/gameinfo.html", 
+    "Date" : ISODate("2014-03-31T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded36"), 
+        "TeamId" : NumberInt(15), 
+        "TeamName" : "Boston Celtics"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded37"), 
+        "TeamId" : NumberInt(16), 
+        "TeamName" : "Chicago Bulls"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb79"), 
+    "GameId" : NumberInt(6), 
+    "ResultOfTeam1" : NumberInt(-1), 
+    "URL" : "http://www.nba.com/games/20140331/TORMIA/gameinfo.html", 
+    "Date" : ISODate("2014-03-31T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded38"), 
+        "TeamId" : NumberInt(17), 
+        "TeamName" : "Toronto Raptors"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded39"), 
+        "TeamId" : NumberInt(18), 
+        "TeamName" : "Miami Heat"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb7a"), 
+    "GameId" : NumberInt(7), 
+    "ResultOfTeam1" : NumberInt(-1), 
+    "URL" : "http://www.nba.com/games/20140331/MILDET/gameinfo.html", 
+    "Date" : ISODate("2014-03-31T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded3a"), 
+        "TeamId" : NumberInt(19), 
+        "TeamName" : "Milwaukee Bucks"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded3b"), 
+        "TeamId" : NumberInt(20), 
+        "TeamName" : "Detroit Pistons"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb7b"), 
+    "GameId" : NumberInt(8), 
+    "ResultOfTeam1" : NumberInt(-1), 
+    "URL" : "http://www.nba.com/games/20140331/PHIATL/gameinfo.html", 
+    "Date" : ISODate("2014-03-31T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded3c"), 
+        "TeamId" : NumberInt(21), 
+        "TeamName" : "Philadelphia 76ers"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded3d"), 
+        "TeamId" : NumberInt(22), 
+        "TeamName" : "Atlanta Hawks"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb7c"), 
+    "GameId" : NumberInt(9), 
+    "ResultOfTeam1" : NumberInt(-1), 
+    "URL" : "http://www.nba.com/games/20140331/WASCHA/gameinfo.html", 
+    "Date" : ISODate("2014-03-31T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded3e"), 
+        "TeamId" : NumberInt(23), 
+        "TeamName" : "Washington Wizards"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded3f"), 
+        "TeamId" : NumberInt(24), 
+        "TeamName" : "Charlotte Bobcats"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb7d"), 
+    "GameId" : NumberInt(10), 
+    "ResultOfTeam1" : NumberInt(1), 
+    "URL" : "http://www.nba.com/games/20140401/PORLAL/gameinfo.html?ls=slt", 
+    "Date" : ISODate("2014-04-01T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded28"), 
+        "TeamId" : NumberInt(1), 
+        "TeamName" : "Portland Trail Blazers"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded29"), 
+        "TeamId" : NumberInt(2), 
+        "TeamName" : "Los Angeles Lakers"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb7e"), 
+    "GameId" : NumberInt(11), 
+    "ResultOfTeam1" : NumberInt(1), 
+    "URL" : "http://www.nba.com/games/20140401/GSWDAL/gameinfo.html?ls=slt", 
+    "Date" : ISODate("2014-04-01T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded2a"), 
+        "TeamId" : NumberInt(3), 
+        "TeamName" : "Golden State Warriors"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded2b"), 
+        "TeamId" : NumberInt(4), 
+        "TeamName" : "Dallas Mavericks"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb7f"), 
+    "GameId" : NumberInt(12), 
+    "ResultOfTeam1" : NumberInt(-1), 
+    "URL" : "http://www.nba.com/games/20140401/HOUBKN/gameinfo.html?ls=slt", 
+    "Date" : ISODate("2014-04-01T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded2c"), 
+        "TeamId" : NumberInt(5), 
+        "TeamName" : "Houston Rockets"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded2d"), 
+        "TeamId" : NumberInt(6), 
+        "TeamName" : "Brooklyn Nets"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb80"), 
+    "GameId" : NumberInt(13), 
+    "ResultOfTeam1" : NumberInt(-1), 
+    "URL" : "http://www.nba.com/games/20140402/DETIND/gameinfo.html", 
+    "Date" : ISODate("2014-04-02T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded3b"), 
+        "TeamId" : NumberInt(20), 
+        "TeamName" : "Detroit Pistons"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded40"), 
+        "TeamId" : NumberInt(25), 
+        "TeamName" : "Indiana Pacers"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb81"), 
+    "GameId" : NumberInt(14), 
+    "ResultOfTeam1" : NumberInt(-1), 
+    "URL" : "http://www.nba.com/games/20140402/BKNNYK/gameinfo.html", 
+    "Date" : ISODate("2014-04-02T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded2d"), 
+        "TeamId" : NumberInt(6), 
+        "TeamName" : "Brooklyn Nets"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded2e"), 
+        "TeamId" : NumberInt(7), 
+        "TeamName" : "New York Knicks"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb82"), 
+    "GameId" : NumberInt(15), 
+    "ResultOfTeam1" : NumberInt(1), 
+    "URL" : "http://www.nba.com/games/20140402/CLEORL/gameinfo.html", 
+    "Date" : ISODate("2014-04-02T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded41"), 
+        "TeamId" : NumberInt(26), 
+        "TeamName" : "Cleveland Cavaliers"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded42"), 
+        "TeamId" : NumberInt(27), 
+        "TeamName" : "Orlando Magic"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb83"), 
+    "GameId" : NumberInt(16), 
+    "ResultOfTeam1" : NumberInt(-1), 
+    "URL" : "http://www.nba.com/games/20140402/CHAPHI/gameinfo.html", 
+    "Date" : ISODate("2014-04-02T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded3c"), 
+        "TeamId" : NumberInt(21), 
+        "TeamName" : "Philadelphia 76ers"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded3f"), 
+        "TeamId" : NumberInt(24), 
+        "TeamName" : "Charlotte Bobcats"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb84"), 
+    "GameId" : NumberInt(17), 
+    "ResultOfTeam1" : NumberInt(-1), 
+    "URL" : "http://www.nba.com/games/20140402/HOUTOR/gameinfo.html", 
+    "Date" : ISODate("2014-04-02T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded2c"), 
+        "TeamId" : NumberInt(5), 
+        "TeamName" : "Houston Rockets"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded38"), 
+        "TeamId" : NumberInt(17), 
+        "TeamName" : "Toronto Raptors"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb85"), 
+    "GameId" : NumberInt(18), 
+    "ResultOfTeam1" : NumberInt(-1), 
+    "URL" : "http://www.nba.com/games/20140402/BOSWAS/gameinfo.html", 
+    "Date" : ISODate("2014-04-02T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded36"), 
+        "TeamId" : NumberInt(15), 
+        "TeamName" : "Boston Celtics"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded3e"), 
+        "TeamId" : NumberInt(23), 
+        "TeamName" : "Washington Wizards"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb86"), 
+    "GameId" : NumberInt(19), 
+    "ResultOfTeam1" : NumberInt(1), 
+    "URL" : "http://www.nba.com/games/20140402/CHIATL/gameinfo.html", 
+    "Date" : ISODate("2014-04-02T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded37"), 
+        "TeamId" : NumberInt(16), 
+        "TeamName" : "Chicago Bulls"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded3d"), 
+        "TeamId" : NumberInt(22), 
+        "TeamName" : "Atlanta Hawks"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb87"), 
+    "GameId" : NumberInt(20), 
+    "ResultOfTeam1" : NumberInt(1), 
+    "URL" : "http://www.nba.com/games/20140402/MILMIA/gameinfo.html", 
+    "Date" : ISODate("2014-04-02T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded39"), 
+        "TeamId" : NumberInt(18), 
+        "TeamName" : "Miami Heat"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded3a"), 
+        "TeamId" : NumberInt(19), 
+        "TeamName" : "Milwaukee Bucks"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb88"), 
+    "GameId" : NumberInt(21), 
+    "ResultOfTeam1" : NumberInt(-1), 
+    "URL" : "http://www.nba.com/games/20140402/MEMMIN/gameinfo.html", 
+    "Date" : ISODate("2014-04-02T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded30"), 
+        "TeamId" : NumberInt(9), 
+        "TeamName" : "Memphis Grizzlies"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded35"), 
+        "TeamId" : NumberInt(14), 
+        "TeamName" : "Minnesota Timberwolves"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb89"), 
+    "GameId" : NumberInt(22), 
+    "ResultOfTeam1" : NumberInt(-1), 
+    "URL" : "http://www.nba.com/games/20140402/GSWSAS/gameinfo.html", 
+    "Date" : ISODate("2014-04-02T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded2a"), 
+        "TeamId" : NumberInt(3), 
+        "TeamName" : "Golden State Warriors"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded43"), 
+        "TeamId" : NumberInt(28), 
+        "TeamName" : "San Antonio Spurs"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb8a"), 
+    "GameId" : NumberInt(23), 
+    "ResultOfTeam1" : NumberInt(1), 
+    "URL" : "http://www.nba.com/games/20140402/NOPDEN/gameinfo.html", 
+    "Date" : ISODate("2014-04-02T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded31"), 
+        "TeamId" : NumberInt(10), 
+        "TeamName" : "Denver Nuggets"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded33"), 
+        "TeamId" : NumberInt(12), 
+        "TeamName" : "New Orleans Pelicans"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb8b"), 
+    "GameId" : NumberInt(24), 
+    "ResultOfTeam1" : NumberInt(1), 
+    "URL" : "http://www.nba.com/games/20140402/LACPHX/gameinfo.html", 
+    "Date" : ISODate("2014-04-02T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded34"), 
+        "TeamId" : NumberInt(13), 
+        "TeamName" : "Los Angeles Clippers"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded44"), 
+        "TeamId" : NumberInt(29), 
+        "TeamName" : "Phoenix Suns"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb8c"), 
+    "GameId" : NumberInt(25), 
+    "ResultOfTeam1" : NumberInt(-1), 
+    "URL" : "http://www.nba.com/games/20140402/LALSAC/gameinfo.html", 
+    "Date" : ISODate("2014-04-02T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded29"), 
+        "TeamId" : NumberInt(2), 
+        "TeamName" : "Los Angeles Lakers"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded32"), 
+        "TeamId" : NumberInt(11), 
+        "TeamName" : "Sacramento Kings"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb8d"), 
+    "GameId" : NumberInt(26), 
+    "ResultOfTeam1" : NumberInt(-1), 
+    "URL" : "http://www.nba.com/games/20140403/SASOKC/gameinfo.html", 
+    "Date" : ISODate("2014-04-03T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded43"), 
+        "TeamId" : NumberInt(28), 
+        "TeamName" : "San Antonio Spurs"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded45"), 
+        "TeamId" : NumberInt(30), 
+        "TeamName" : "Oklahoma City Thunder"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb8e"), 
+    "GameId" : NumberInt(27), 
+    "ResultOfTeam1" : NumberInt(1), 
+    "URL" : "http://www.nba.com/games/20140403/DALLAC/gameinfo.html", 
+    "Date" : ISODate("2014-04-03T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded2b"), 
+        "TeamId" : NumberInt(4), 
+        "TeamName" : "Dallas Mavericks"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded34"), 
+        "TeamId" : NumberInt(13), 
+        "TeamName" : "Los Angeles Clippers"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb8f"), 
+    "GameId" : NumberInt(28), 
+    "ResultOfTeam1" : NumberInt(1), 
+    "URL" : "http://www.nba.com/games/20140404/DENMEM/gameinfo.html", 
+    "Date" : ISODate("2014-04-04T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded30"), 
+        "TeamId" : NumberInt(9), 
+        "TeamName" : "Memphis Grizzlies"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded31"), 
+        "TeamId" : NumberInt(10), 
+        "TeamName" : "Denver Nuggets"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb90"), 
+    "GameId" : NumberInt(29), 
+    "ResultOfTeam1" : NumberInt(1), 
+    "URL" : "http://www.nba.com/games/20140404/ORLCHA/gameinfo.html", 
+    "Date" : ISODate("2014-04-04T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded3f"), 
+        "TeamId" : NumberInt(24), 
+        "TeamName" : "Charlotte Bobcats"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded42"), 
+        "TeamId" : NumberInt(27), 
+        "TeamName" : "Orlando Magic"
+    }
+}
+{ 
+    "_id" : ObjectId("5a212f25b43ac103c76deb91"), 
+    "GameId" : NumberInt(30), 
+    "ResultOfTeam1" : NumberInt(1), 
+    "URL" : "http://www.nba.com/games/20140404/INDTOR/gameinfo.html", 
+    "Date" : ISODate("2014-04-04T00:00:00.000+0000"), 
+    "Team1" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded38"), 
+        "TeamId" : NumberInt(17), 
+        "TeamName" : "Toronto Raptors"
+    }, 
+    "Team2" : {
+        "_id" : ObjectId("5a212f5eb43ac103c76ded40"), 
+        "TeamId" : NumberInt(25), 
+        "TeamName" : "Indiana Pacers"
+    }
+}
