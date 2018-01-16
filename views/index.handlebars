@@ -19,8 +19,8 @@
 					<header id="header" class="alt">
 						<span class="logo"><img src="images/pic01.jpg" alt="" /></span>
 						<h1>NBA Results Dataset</h1>
-						<p>Application Cloud
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						<p>
+							Le but de cet exercice est de développer une application avec des données réelles. Nous avons défini les requêtes les plus pertinentes par rapport à ce jeu de données, intégré dans une application dédiée, et défini des vues en fonction des rôles.
 						</p>
 					</header>
 
@@ -56,17 +56,12 @@
 											</select>
 										</div>
 										{{/if}}
-
+										<br>
+										<br>
 									</div>
 									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
 								</div>
-							</section>
-
-							<section class="main" id="teamMembers">
-								<header class="major">
-									<h2>Team name</h2>
-								</header>
-								<div class="table-wrapper">
+								<div class="table-wrapper" id="GamesTable">
 									<table>
 										<thead>
 											<tr>
@@ -82,7 +77,7 @@
 							</section>
 
 						<!-- Second Section -->
-							<section id="matchs" class="main special">
+							<!-- <section id="matchs" class="main special">
 								<header class="major">
 									<h2>Sports results</h2>
 								</header>
@@ -105,7 +100,7 @@
 										<li><a href="generic.html" class="button">Voir tous les matchs</a></li>
 									</ul>
 								</footer>
-							</section>
+							</section> -->
 
 					</div>
 
@@ -125,7 +120,7 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 			<script type="text/javascript">
-				$("#teamMembers").hide();
+				$("#GamesTable").hide();
 				$("#matchs").hide();
 
 				function selectTeam() {
@@ -134,22 +129,21 @@
 
 						var json_url_score = '/team'+teamId;
 						$.getJSON(json_url_score, function(data) {
-							$("#teamMembers tbody").empty();
+							$("#GamesTable tbody").empty();
 							console.log(data);
 							$.each(data.game, function(index, value) {
 								console.log(value.Team1.TeamName+" VS "+value.Team2.TeamName);
-								$("#teamMembers").show();
-								$("#teamMembers tbody").append( "<tr><td>"+value.Team1.TeamName+"</td><td>"+value.Team2.TeamName+"</td><td><a href='/game"+value.GameId+"' class='button'>Détail du match</a></td></tr>" );
+								$("#GamesTable").show();
+								$("#GamesTable tbody").append( "<tr><td>"+value.Team1.TeamName+"</td><td>"+value.Team2.TeamName+"</td><td><a href='/game"+value.GameId+"' class='button'>Détail du match</a></td></tr>" );
 								$("table tbody tr").click(function() {
 									window.location.href += 'game'+value.GameId;
 								});
 							});
-							$("a[href=#teamMembers]").click();
 						});
 
 					}
 					else {
-						$("#teamMembers").hide();
+						$("#GamesTable").hide();
 					}
 				}
 			</script>

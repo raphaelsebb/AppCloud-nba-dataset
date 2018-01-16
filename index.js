@@ -31,43 +31,6 @@ app.get('/', function (req, res, next) {
   });
 });
 
-// Get team's membres (using team'id)
-// app.get('/team:id', function (req, res) {
-//   var id = parseInt(req.params.id);
-//   mongo.connect(url, function(err, db) {
-//     db.collection("Actions").aggregate([
-//       {
-//         $match:{
-//           "TeamId" : id
-//         }
-//       },
-//       {$lookup: {
-//           from: "Team",
-//           localField: "TeamId",
-//           foreignField: "TeamId",
-//           as: "TeamInfo"
-//       }},
-//       {
-//         $unwind: "$TeamInfo"
-//       },
-//       {
-//         $project: {
-//           "TeamInfo.TeamId": 1,
-//           "TeamInfo.TeamName": 1,
-//           "Player.PlayerName": 1,
-//           "Player.PlayerId": 1
-//         }
-//       }
-//     ]).toArray(function(err, result) {
-//       if (err) throw err;
-//       res.setHeader('Content-Type', 'application/json');
-//       console.log(result);
-//       res.send({'team': result});
-//       db.close();
-//     });
-//   });
-// });
-
 // Get team's played games (using team's id)
 app.get('/team:id', function (req, res) {
   var id = parseInt(req.params.id);
