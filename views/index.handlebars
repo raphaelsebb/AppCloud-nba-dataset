@@ -134,7 +134,7 @@
 							$.each(data.game, function(index, value) {
 								console.log(value.Team1.TeamName+" VS "+value.Team2.TeamName);
 								$("#GamesTable").show();
-								$("#GamesTable tbody").append( "<tr><td>"+value.Team1.TeamName+"</td><td>"+value.Team2.TeamName+"</td><td><a href='/game"+value.GameId+"' class='button'>Détail du match</a></td></tr>" );
+								$("#GamesTable tbody").append( "<tr><td>"+value.Team1.TeamName+"</td><td>"+value.Team2.TeamName+"</td><td><a href='/game"+value.GameId+"' class='button'>Game details</a></td></tr>" );
 								$("table tbody tr").click(function() {
 									window.location.href += 'game'+value.GameId;
 								});
