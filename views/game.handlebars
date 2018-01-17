@@ -29,7 +29,7 @@
 							<li><a href="#cta">Get Started</a></li>
 						</ul>
 					</nav>
-					
+
 				<!-- Main -->
 					<div id="main">
 
@@ -38,7 +38,24 @@
 								<h2>{{#each game}}{{Team1.TeamName}} <span class="vs">VS</span> {{Team2.TeamName}}{{/each}}</h2>
 								<div class="" id="winer">
 								</div>
+
 								<br><br>
+
+								<div class="table-wrapper" id="InfosTable">
+									<h2>Top 5 - Players</h2>
+									<table>
+										<thead>
+											<tr>
+												<th>#</th>
+												<th>Player</th>
+												<th>Points</th>
+											</tr>
+										</thead>
+										<tbody>
+										</tbody>
+									</table>
+								</div>
+
 								<h2>Details</h2>
 								{{#if game}}
 									{{#each game}}
@@ -66,6 +83,22 @@
 			<!--[if lte IE 8]><script src="../assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="../assets/js/main.js"></script>
 			<script type="text/javascript">
+			console.log('/infos{{id}}');
+
+				var json_url_score = '/infos{{id}}';
+
+				$.getJSON(json_url_score, function(data) {
+					console.log(data);
+					$.each(data.infos, function(index, value) {
+						console.log(index + 1 +" "+value._id + " " + value.score);
+						$("#InfosTable").show();
+						$("#InfosTable tbody").append( "<tr><td>"+ (index+1) +"</td><td>"+value._id+"</td><td>"+value.score+"</td></tr>" );
+					});
+				});
+
+
+
+
 
 			{{#if game}}
 				{{#each game}}

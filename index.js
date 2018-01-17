@@ -54,6 +54,40 @@ app.get('/team:id', function (req, res) {
   });
 });
 
+// Get players (using game's id)
+app.get('/infos:id', function (req, res) {
+  var id = parseInt(req.params.id);
+  mongo.connect(url, function(err, db) {
+    db.collection("Actions").aggregate([
+      {
+        $match: {
+          "GameId": id
+        }
+      },
+      { 
+        $group: { 
+          "_id":"$Player.PlayerName", 
+          "score":{$sum:"$Points"} 
+        } 
+      },  
+      { 
+        $sort: { 
+          "score":-1 
+        } 
+      },  
+      { 
+        $limit: 5
+      }
+    ]).toArray(function(err, result) {
+      if (err) throw err;
+      res.setHeader('Content-Type', 'application/json');
+      console.log(result);
+      res.send({'infos': result});
+      db.close();
+    });
+  });
+});
+
 
 // Get games (using game's id)
 app.get('/game:id', function (req, res) {
@@ -76,7 +110,7 @@ app.get('/game:id', function (req, res) {
     }, function() {
       db.close();
       console.log('connection closed');
-      res.render('game', {'title': resultArray[0].Team1.TeamName + ' VS ' + resultArray[0].Team2.TeamName, 'game': resultArray});
+      res.render('game', {'id': resultArray[0].GameId ,'title': resultArray[0].Team1.TeamName + ' VS ' + resultArray[0].Team2.TeamName, 'game': resultArray});
       console.log(resultArray);
     });
   });
