@@ -6,25 +6,37 @@
 
 https://relational.fit.cvut.cz/dataset/NBA
 
+## Téchnologies
+- node.js
+- mongodb
+
 ## Installation
 
-Télécharger le dossier `bdd` et ajoutez les JSON à votre base de données mongodb que vous devez appeler `NBA` (connecté sur le port `27017`).
 
 ```
-npm install -all
+git clone https://github.com/raphaelsebb/AppCloud-nba-dataset.git
 ```
+
+Ajoutez les fichiers JSON contenus dans `bdd` dans une base de données mongodb que vous devez appeler `NBA` (connecté sur le port `27017`).
+
 ```
 sudo mongod
+```
+```
+npm install dependencies
+node index.js
 ```
 
 Rendez-vous sur http://localhost:3000/
 
 ## Fonctionnalités
 
+#### Page 1 : index
+
 Sur la page index vous pouvez séléctionner l'équipe de votre choix.
 Une fois séléctionnée, un tableux contenant l'ensembles des matchs disputés apparait.
 
-Grace aux la requêtes :
+Grace aux requêtes :
 
 ```javascript
 //get all teams
@@ -43,7 +55,12 @@ db.collection("Game").aggregate([
 ])
 ```
 
-En cliquant sur l'un des matchs grace au bouton `Game details`. Vous pourrez ainsi obtenir diffférentes information tels que : l'équipe vainqueur, le lien du match sur le site de la NBA ou encore le top 5 des meilleurs joueurs du match.
+En cliquant sur les boutons `Game details`, vous pouvez vous rendre sur une deuxième page.
+
+#### Page 2 : game
+
+
+ Vous obtenez diffférentes informations tels que : l'équipe vainqueur, le lien du match sur le site de la NBA ou encore le top 5 des meilleurs joueurs du match.
 
 ```javascript
 //get game informations (using game's id)
@@ -78,6 +95,30 @@ db.collection("Actions").aggregate([
   }
 ])
 ```
+#### Page 3 : player
 
-meilleur joueur du match 2
-db.Actions.find({"GameId": 2}).sort({Points:-1}).limit(1)
+Sur cette page, vous pouvez séléctionner le joueur de votre choix.
+Une fois séléctionnée, un tableux contenant l'ensembles de ses actions pour chaque match disputé.
+
+```javascript
+//get all players
+db.collection("Player").find();
+
+//get all actions played by the selected player (using player's id)
+db.collection("Actions").aggregate([
+  {
+    $match:{
+      "Player.PlayerId": id
+    }
+  }
+])
+```
+
+#### Page 4 : admin
+
+Cette page permet de consulter les logs de toutes les requêtes.
+
+```javascript
+//get 100 last logs
+db.collection("logs").find().sort({date: -1}).limit(100);
+```

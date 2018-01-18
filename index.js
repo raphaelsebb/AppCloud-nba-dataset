@@ -179,7 +179,7 @@ app.get('/admin', function (req, res, next) {
   mongo.connect(url, function(err, db) {
     assert.equal(null, err);
     console.log('connected');
-    var cursor = db.collection("logs").find().sort({date: -1});
+    var cursor = db.collection("logs").find().sort({date: -1}).limit(100);
     cursor.forEach(function(doc, err) {
       assert.equal(null, err);
       resultArray.push(doc)
