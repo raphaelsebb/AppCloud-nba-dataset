@@ -3024,7 +3024,6 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		margin: 0 0 2em 0;
 	}
 
 		.spotlight .content {
@@ -3611,7 +3610,7 @@
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
+			padding: 2em 5em 2em 5em ;
 			border-top: solid 1px #dddddd;
 		}
 

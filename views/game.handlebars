@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Generic - Stellar by HTML5 UP</title>
+		<title>NBA Results Dataset / {{title}}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -22,11 +22,10 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li><a href="/">Home</a></li>
-							<li><a href="#intro" class="active">Select Team</a></li>
-							<li><a href="#teamMembers">Team Members</a></li>
-							<li><a href="#matchs">Infos Matchs</a></li>
-							<li><a href="#cta">Get Started</a></li>
+							<li><a href="/">Teams</a></li>
+							<li><a href="/game1">Games</a></li>
+							<li><a href="/player">Players</a></li>
+							<li><a href="/admin">Admin</a></li>
 						</ul>
 					</nav>
 
@@ -83,10 +82,7 @@
 			<!--[if lte IE 8]><script src="../assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="../assets/js/main.js"></script>
 			<script type="text/javascript">
-			console.log('/infos{{id}}');
-
 				var json_url_score = '/infos{{id}}';
-
 				$.getJSON(json_url_score, function(data) {
 					console.log(data);
 					$.each(data.infos, function(index, value) {
@@ -95,22 +91,16 @@
 						$("#InfosTable tbody").append( "<tr><td>"+ (index+1) +"</td><td>"+value._id+"</td><td>"+value.score+"</td></tr>" );
 					});
 				});
-
-
-
-
-
-			{{#if game}}
-				{{#each game}}
-					if ({{this.ResultOfTeam1}} < 0) {
-						$("#winer").append("<span>The winer is : <b>{{this.Team2.TeamName}}</b> !</span>");
-					}
-					else {
-						$("#winer").append("<span>The winer is : <b>{{this.Team1.TeamName}}</b> !</span>");
-					}
-				{{/each}}
-			{{/if}}
-
+				{{#if game}}
+					{{#each game}}
+						if ({{this.ResultOfTeam1}} < 0) {
+							$("#winer").append("<span>The winer is : <b>{{this.Team2.TeamName}}</b> !</span>");
+						}
+						else {
+							$("#winer").append("<span>The winer is : <b>{{this.Team1.TeamName}}</b> !</span>");
+						}
+					{{/each}}
+				{{/if}}
 			</script>
 	</body>
 </html>
