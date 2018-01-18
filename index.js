@@ -172,11 +172,26 @@ app.get('/playerInfos:id', function (req, res) {
   });
 });
 
-// Start server
-var server = app.listen(3000, function () {
-   var host = server.address().address;
-   var port = server.address().port;
-   console.log("Application Cloud listening at http://localhost:%s/", port);
+// Get logs
+app.get('/admin', function (req, res, next) {
+  var resultArray = [];
+  var date = Date.now();
+  mongo.connect(url, function(err, db) {
+    assert.equal(null, err);
+    console.log('connected');
+    var cursor = db.collection("logs").find().sort({date: -1});
+    cursor.forEach(function(doc, err) {
+      assert.equal(null, err);
+      resultArray.push(doc)
+    }, function() {
+      var time = Date.now() - date;;
+      insertLogs(date, 'findLogs', time);
+      db.close();
+      console.log('connection closed');
+      res.render('admin', {'title': 'Admin', 'logs': resultArray});
+      console.log(resultArray);
+    });
+  });
 });
 
 function insertLogs(date, query, time) {
@@ -195,3 +210,10 @@ function insertLogs(date, query, time) {
     });
   });
 }
+
+// Start server
+var server = app.listen(3000, function () {
+   var host = server.address().address;
+   var port = server.address().port;
+   console.log("Application Cloud listening at http://localhost:%s/", port);
+});
