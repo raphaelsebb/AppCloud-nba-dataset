@@ -15,6 +15,7 @@ app.use(express.static('views'));
 // Get all teams
 app.get('/', function (req, res, next) {
   var resultArray = [];
+  var date = Date.now();
   mongo.connect(url, function(err, db) {
     assert.equal(null, err);
     console.log('connected');
@@ -23,6 +24,8 @@ app.get('/', function (req, res, next) {
       assert.equal(null, err);
       resultArray.push(doc)
     }, function() {
+      var time = Date.now() - date;;
+      insertLogs(date, 'findTeams', time);
       db.close();
       console.log('connection closed');
       res.render('index', {'title': 'All teams', 'teams': resultArray});
@@ -34,6 +37,7 @@ app.get('/', function (req, res, next) {
 // Get team's played games (using team's id)
 app.get('/team:id', function (req, res) {
   var id = parseInt(req.params.id);
+  var date = Date.now();
   mongo.connect(url, function(err, db) {
     db.collection("Game").aggregate([
       {
@@ -46,6 +50,8 @@ app.get('/team:id', function (req, res) {
       }
     ]).toArray(function(err, result) {
       if (err) throw err;
+      var time = Date.now() - date;;
+      insertLogs(date, 'teamGames', time);
       res.setHeader('Content-Type', 'application/json');
       console.log(result);
       res.send({'game': result});
@@ -57,6 +63,7 @@ app.get('/team:id', function (req, res) {
 // Get players (using game's id)
 app.get('/infos:id', function (req, res) {
   var id = parseInt(req.params.id);
+  var date = Date.now();
   mongo.connect(url, function(err, db) {
     db.collection("Actions").aggregate([
       {
@@ -80,6 +87,8 @@ app.get('/infos:id', function (req, res) {
       }
     ]).toArray(function(err, result) {
       if (err) throw err;
+      var time = Date.now() - date;;
+      insertLogs(date, 'top5players', time);
       res.setHeader('Content-Type', 'application/json');
       console.log(result);
       res.send({'infos': result});
@@ -92,7 +101,7 @@ app.get('/infos:id', function (req, res) {
 // Get games (using game's id)
 app.get('/game:id', function (req, res) {
   var id = parseInt(req.params.id);
-
+  var date = Date.now();
   var resultArray = [];
   mongo.connect(url, function(err, db) {
     assert.equal(null, err);
@@ -108,6 +117,8 @@ app.get('/game:id', function (req, res) {
       assert.equal(null, err);
       resultArray.push(doc)
     }, function() {
+      var time = Date.now() - date;;
+      insertLogs(date, 'gameInfos', time);
       db.close();
       console.log('connection closed');
       res.render('game', {'id': resultArray[0].GameId ,'title': resultArray[0].Team1.TeamName + ' VS ' + resultArray[0].Team2.TeamName, 'game': resultArray});
@@ -119,6 +130,7 @@ app.get('/game:id', function (req, res) {
 // Get all players
 app.get('/player', function (req, res, next) {
   var resultArray = [];
+  var date = Date.now();
   mongo.connect(url, function(err, db) {
     assert.equal(null, err);
     console.log('connected');
@@ -127,6 +139,8 @@ app.get('/player', function (req, res, next) {
       assert.equal(null, err);
       resultArray.push(doc)
     }, function() {
+      var time = Date.now() - date;;
+      insertLogs(date, 'findPlayers', time);
       db.close();
       console.log('connection closed');
       res.render('player', {'title': 'All players', 'players': resultArray});
@@ -137,6 +151,7 @@ app.get('/player', function (req, res, next) {
 
 // Get actions's played (using player's id)
 app.get('/playerInfos:id', function (req, res) {
+  var date = Date.now();
   var id = parseInt(req.params.id);
   mongo.connect(url, function(err, db) {
     db.collection("Actions").aggregate([
@@ -147,6 +162,8 @@ app.get('/playerInfos:id', function (req, res) {
       }
     ]).toArray(function(err, result) {
       if (err) throw err;
+      var time = Date.now() - date;
+      insertLogs(date, 'playerInfos', time);
       res.setHeader('Content-Type', 'application/json');
       console.log(result);
       res.send({'player': result});
@@ -161,3 +178,20 @@ var server = app.listen(3000, function () {
    var port = server.address().port;
    console.log("Application Cloud listening at http://localhost:%s/", port);
 });
+
+function insertLogs(date, query, time) {
+  var new_log = {
+    "date" : date,
+    "query" : query,
+    "time" : time
+  };
+
+  mongo.connect(url, function(err, db) {
+    if (err) throw err;
+    db.collection('logs').insertOne(new_log, function(err,res) {
+      if(err) throw err;
+      console.log("1 document inserted");
+      db.close();
+    });
+  });
+}
