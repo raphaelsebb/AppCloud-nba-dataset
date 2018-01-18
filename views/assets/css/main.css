@@ -6,12 +6,12 @@
   .vs {
     background: #0153a4;
     border-radius: 50%;
-    width: 1.5em;
-    height: 1.5em;
+    width: 2em;
+    height: 2em;
     margin: 0 10px;
     display: inline-block;
     text-align: center;
-    line-height: 1.5em;
+    line-height: 2em;
     color: #fff;
   }
 
