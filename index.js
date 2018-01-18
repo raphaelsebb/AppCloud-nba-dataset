@@ -116,6 +116,45 @@ app.get('/game:id', function (req, res) {
   });
 });
 
+// Get all players
+app.get('/player', function (req, res, next) {
+  var resultArray = [];
+  mongo.connect(url, function(err, db) {
+    assert.equal(null, err);
+    console.log('connected');
+    var cursor = db.collection("Player").find();
+    cursor.forEach(function(doc, err) {
+      assert.equal(null, err);
+      resultArray.push(doc)
+    }, function() {
+      db.close();
+      console.log('connection closed');
+      res.render('player', {'title': 'All players', 'players': resultArray});
+      console.log(resultArray);
+    });
+  });
+});
+
+// Get actions's played (using player's id)
+app.get('/playerInfos:id', function (req, res) {
+  var id = parseInt(req.params.id);
+  mongo.connect(url, function(err, db) {
+    db.collection("Actions").aggregate([
+      {
+        $match:{
+          "Player.PlayerId": id
+        }
+      }
+    ]).toArray(function(err, result) {
+      if (err) throw err;
+      res.setHeader('Content-Type', 'application/json');
+      console.log(result);
+      res.send({'player': result});
+      db.close();
+    });
+  });
+});
+
 // Start server
 var server = app.listen(3000, function () {
    var host = server.address().address;

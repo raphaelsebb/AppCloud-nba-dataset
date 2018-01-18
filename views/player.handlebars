@@ -1,14 +1,13 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>NBA Results Dataset {{title}}</title>
+		<title>Generic - Stellar by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="icon" type="image/png" href="images/pic01.jpg" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="../assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="../assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
 
@@ -16,12 +15,8 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
-						<span class="logo"><img src="images/pic01.jpg" alt="" /></span>
-						<h1>NBA Results Dataset</h1>
-						<p>
-							Le but de cet exercice est de développer une application avec des données réelles. Nous avons défini les requêtes les plus pertinentes par rapport à ce jeu de données, intégré dans une application dédiée, et défini des vues en fonction des rôles.
-						</p>
+					<header id="header">
+						<h1>{{title}}</h1>
 					</header>
 
 				<!-- Nav -->
@@ -46,13 +41,13 @@
 											<h2>{{title}}</h2>
 										</header>
 
-										{{#if teams}}
+										{{#if players}}
 										<div class="select-wrapper">
-											<select name="teamList" id="teamList" onchange="selectTeam()">
+											<select name="playersList" id="playersList" onchange="selectPlayer()">
 												<option selected value="">- Select a team -</option>
-												{{#each teams}}
-													<option value="{{this.TeamId}}">{{this.TeamId}}, {{this.TeamName}}</option>
-										    {{/each}}
+												{{#each players}}
+													<option value="{{this.PlayerId}}">{{this.PlayerName}}</option>
+												{{/each}}
 											</select>
 										</div>
 										{{/if}}
@@ -61,18 +56,8 @@
 									</div>
 									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
 								</div>
-								<div class="table-wrapper" id="GamesTable">
-									<table>
-										<thead>
-											<tr>
-												<th>Team 1</th>
-												<th>Team 2</th>
-												<th>Details</th>
-											</tr>
-										</thead>
-										<tbody>
-										</tbody>
-									</table>
+								<div class="table-wrapper" id="InfosTable">
+
 								</div>
 							</section>
 
@@ -120,29 +105,38 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 			<script type="text/javascript">
-				$("#GamesTable").hide();
+				$("#InfosTable").hide();
 
-				function selectTeam() {
-					var teamId = $("#teamList").val();
-					if (teamId != "") {
+				function selectPlayer() {
+					var playerId = $("#playersList").val();
+					if (playerId != "") {
 
-						var json_url_score = '/team'+teamId;
+						var json_url_score = '/playerInfos'+playerId;
 						$.getJSON(json_url_score, function(data) {
-							$("#GamesTable tbody").empty();
+							$("#InfosTable").empty();
 							console.log(data);
-							$.each(data.game, function(index, value) {
-								console.log(value.Team1.TeamName+" VS "+value.Team2.TeamName);
-								$("#GamesTable").show();
-								$("#GamesTable tbody").append( "<tr><td>"+value.Team1.TeamName+"</td><td>"+value.Team2.TeamName+"</td><td><a href='/game"+value.GameId+"' class='button'>Game details</a></td></tr>" );
-								$("table tbody tr").click(function() {
-									window.location.href += 'game'+value.GameId;
+							$.each(data.player, function(index, value) {
+								console.log(value.Player.PlayerName);
+								$("#InfosTable").show();
+								$("#InfosTable").append("<h2 class='button special'>GameId: "+value.GameId+"</h2>"
+									+'<table><thead><tr><th>Actions</th><th>Count / Game</th></tr></thead><tbody>'
+									+ '<tr><td>FieldGoalsMade</td><td>'+value.FieldGoalsMade+'</td></tr>'
+									+ '<tr><td>OffensiveRebounds</td><td>'+value.OffensiveRebounds+'</td></tr>'
+									+ '<tr><td>DefensiveRebounds</td><td>'+value.DefensiveRebounds+'</td></tr>'
+									+ '<tr><td>TotalRebounds</td><td>'+value.TotalRebounds+'</td></tr>'
+									+ '<tr><td>BlockedShots</td><td>'+value.BlockedShots+'</td></tr>'
+									+ '<tr><td>BlocksAgainst</td><td>'+value.BlocksAgainst+'</td></tr>'
+									+ '<tr><td>Total points</td><td>'+value.Points+'</td></tr>'
+									+ '</tbody></table>')
+								$("#InfosTable h2").click(function() {
+									window.location.href = '/game'+value.GameId;
 								});
 							});
 						});
 
 					}
 					else {
-						$("#GamesTable").hide();
+						$("#InfosTable").hide();
 					}
 				}
 			</script>
