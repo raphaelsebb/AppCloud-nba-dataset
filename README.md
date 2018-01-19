@@ -17,7 +17,7 @@ https://relational.fit.cvut.cz/dataset/NBA
 git clone https://github.com/raphaelsebb/AppCloud-nba-dataset.git
 ```
 
-Ajoutez les fichiers JSON contenus dans `bdd` dans une base de données mongodb que vous devez appeler `NBA` (connecté sur le port `27017`).
+Ajoutez les fichiers JSON contenus dans `bdd` dans une base de données mongodb que vous devez appeler `NBA` (connectée sur le port `27017`).
 
 ```
 sudo mongod
@@ -37,7 +37,7 @@ Rendez-vous sur http://localhost:3000/
 #### Page 1 : index
 
 Sur la page index vous pouvez séléctionner l'équipe de votre choix.
-Une fois séléctionnée, un tableux contenant l'ensembles des matchs disputés apparait.
+Une fois séléctionnée, un tablaeu contenant l'ensemble des matchs disputés apparait.
 
 Grace aux requêtes :
 
@@ -63,7 +63,7 @@ En cliquant sur les boutons `Game details`, vous pouvez vous rendre sur une deux
 #### Page 2 : game
 
 
- Vous obtenez diffférentes informations tels que : l'équipe vainqueur, le lien du match sur le site de la NBA ou encore le top 5 des meilleurs joueurs du match.
+ Vous obtenez différentes informations telles que : l'équipe vainqueur, le lien du match sur le site de la NBA ou encore le top 5 des meilleurs joueurs du match.
 
 ```javascript
 //get game informations (using game's id)
@@ -101,7 +101,7 @@ db.collection("Actions").aggregate([
 #### Page 3 : player
 
 Sur cette page, vous pouvez séléctionner le joueur de votre choix.
-Une fois séléctionnée, un tableux contenant l'ensembles de ses actions pour chaque match disputé.
+Une fois séléctionné, un tableau contenant l'ensemble de ses actions pour chaque match disputé.
 
 ```javascript
 //get all players
