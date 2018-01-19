@@ -3,7 +3,7 @@ var router = express.Router();
 var mongo = require("mongodb");
 var app = express();
 var assert = require("assert");
-var exphbs  = require('express-handlebars');
+var exphbs  = require("express-handlebars");
 
 
 var url = "mongodb://localhost:27017/NBA"

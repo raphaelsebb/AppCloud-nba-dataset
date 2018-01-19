@@ -23,7 +23,10 @@ Ajoutez les fichiers JSON contenus dans `bdd` dans une base de données mongodb 
 sudo mongod
 ```
 ```
-npm install dependencies
+npm install mongodb@2.2.33
+npm install express
+npm install assert
+npm install express-handlebars
 node index.js
 ```
 
