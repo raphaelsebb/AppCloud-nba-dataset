@@ -36,8 +36,8 @@ Rendez-vous sur http://localhost:3000/
 
 #### Page 1 : index
 
-Sur la page index vous pouvez séléctionner l'équipe de votre choix.
-Une fois séléctionnée, un tablaeu contenant l'ensemble des matchs disputés apparait.
+Sur la page index vous pouvez sélectionner l'équipe de votre choix.
+Une fois sélectionnée, un tableau contenant l'ensemble des matchs disputés apparait.
 
 Grace aux requêtes :
 
@@ -100,8 +100,8 @@ db.collection("Actions").aggregate([
 ```
 #### Page 3 : player
 
-Sur cette page, vous pouvez séléctionner le joueur de votre choix.
-Une fois séléctionné, un tableau contenant l'ensemble de ses actions pour chaque match disputé.
+Sur cette page, vous pouvez sélectionner le joueur de votre choix.
+Une fois sélectionné, un tableau contenant l'ensemble de ses actions pour chaque match disputé.
 
 ```javascript
 //get all players
